@@ -1,26 +1,23 @@
+
 <!DOCTYPE html>
 <!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
-
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <title>Obie Fernandez: The Worst Rails Code You've Ever Seen! - Dovadi</title>
   <meta name="author" content="Frank Oxener">
 
-
-  <meta name="description"
-    content="Last Tuesday (10th of June) Obie Fernandez gave a presentation on the RubyenRails conference in Amsterdam about The Worst Rails Code You&#8217;ve &hellip;">
-
+  
+  <meta name="description" content="Last Tuesday (10th of June) Obie Fernandez gave a presentation on the RubyenRails conference in Amsterdam about The Worst Rails Code You&#8217;ve &hellip;">
+  
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+  
   <link rel="canonical" href="http://dovadi.com/2008/06/15/obie-fernandez-the-worst-code-you-have-ever-seen/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -29,18 +26,16 @@
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="Dovadi" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-  <link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet"
-    type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet"
-    type="text/css">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
-
+  
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-410122-5']);
     _gaq.push(['_trackPageview']);
 
-    (function () {
+    (function() {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
@@ -50,50 +45,46 @@
 
 </head>
 
-<body>
-  <header role="banner">
-    <hgroup>
-      <h1><a href="/">Dovadi</a></h1>
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Dovadi</a></h1>
+  
+    <h2>None of us is as smart as all of us.</h2>
+  
+</hgroup>
 
-      <h2>None of us is as smart as all of us.</h2>
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:dovadi.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
 
-    </hgroup>
-
-  </header>
-  <nav role="navigation">
-    <ul class="subscription" data-subscription="rss">
-      <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-
-    </ul>
-
-    <form action="https://google.com/search" method="get">
-      <fieldset role="search">
-        <input type="hidden" name="q" value="site:dovadi.com" />
-        <input class="search" type="text" name="q" results="0" placeholder="Search" />
-      </fieldset>
-    </form>
-
-    <ul class="main-navigation">
-      <li><a href="/">Blog</a></li>
-      <li><a href="/blog/archives">Archives</a></li>
-      <li><a href="/about">About</a></li>
-    </ul>
-
-  </nav>
+</nav>
   <div id="main">
     <div id="content">
       <div>
-        <article class="hentry" role="article">
-
-          <header>
-
-            <h1 class="entry-title">Obie Fernandez: The Worst Rails Code You've Ever Seen!</h1>
-
-
-            <p class="meta">
-
-
-
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Obie Fernandez: The Worst Rails Code You've Ever Seen!</h1>
+    
+    
+      <p class="meta">
+        
 
 
 
@@ -102,45 +93,35 @@
 
 
 
-
-              <time datetime="2008-06-15T00:00:00+02:00" pubdate data-updated="true">Jun 15<span>th</span>, 2008</time>
-
-            </p>
-
-          </header>
+  
 
 
-          <div class="entry-content">
-            <div style="float:right">
-              <p><img src="/assets/2008/6/15/by_worst_i_dont_mean_stupid_slice.jpg" alt="" /></p>
-            </div>
+<time datetime="2008-06-15T00:00:00+02:00" pubdate data-updated="true">Jun 15<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
 
 
-            <p>Last Tuesday (10th of June) <a href="http://obiefernandez.com/">Obie Fernandez</a> gave a presentation on
-              the <a href="http://2008.rubyenrails.nl/">RubyenRails conference</a> in Amsterdam about <a
-                href="http://obiefernandez.com/presentations/obiefernandez-worstrailscode-railsconf2008_slides.pdf">The
-                Worst Rails Code <br />
-                You&#8217;ve Ever Seen</a>.</p>
+<div class="entry-content"><div style="float:right">
+<p><img src="/assets/2008/6/15/by_worst_i_dont_mean_stupid_slice.jpg" alt="" /></p>
+</div>
 
 
-            <p>To be honest he had some really bad examples, he showed us for example an user controller of 1131 lines
-              (of pure <span class="caps">FAIL</span>)!!</p>
+<p>Last Tuesday (10th of June) <a href="http://obiefernandez.com/">Obie Fernandez</a> gave a presentation on the <a href="http://2008.rubyenrails.nl/">RubyenRails conference</a> in Amsterdam about <a href="http://obiefernandez.com/presentations/obiefernandez-worstrailscode-railsconf2008_slides.pdf">The Worst Rails Code <br />
+You&#8217;ve Ever Seen</a>.</p>
 
 
-            <p>But a lot of examples were more in the line of not knowing there is a better alternative in Ruby or a
-              better alternative provided by the Rails framework.</p>
+<p>To be honest he had some really bad examples, he showed us for example an user controller of 1131 lines (of pure <span class="caps">FAIL</span>)!!</p>
 
 
-            <p>Obie came with an example like this:</p>
+<p>But a lot of examples were more in the line of not knowing there is a better alternative in Ruby or a better alternative provided by the Rails framework.</p>
 
 
-            <figure class='code'>
-              <figcaption><span></span></figcaption>
-              <div class="highlight">
-                <table>
-                  <tr>
-                    <td class="gutter">
-                      <pre class="line-numbers"><span class='line-number'>1</span>
+<p>Obie came with an example like this:</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -149,10 +130,7 @@
 <span class='line-number'>7</span>
 <span class='line-number'>8</span>
 <span class='line-number'>9</span>
-</pre>
-                    </td>
-                    <td class='code'>
-                      <pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Util</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Util</span>
 </span><span class='line'>  <span class="k">def</span> <span class="nf">hash_values_as_array</span><span class="p">(</span><span class="nb">hash</span><span class="p">)</span>
 </span><span class='line'>    <span class="n">values</span><span class="o">=[]</span>
 </span><span class='line'>    <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="k">in</span> <span class="nb">hash</span>
@@ -161,66 +139,41 @@
 </span><span class='line'>    <span class="k">return</span> <span class="n">values</span>
 </span><span class='line'>  <span class="k">end</span>
 </span><span class='line'><span class="k">end</span>
-</span></code></pre>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </figure>
+</span></code></pre></td></tr></table></div></figure>
 
 
-            <p><em>(Of course, you can do the same with hash.values.)</em></p>
+<p><em>(Of course, you can do the same with hash.values.)</em></p>
 
 
-            <p>I don&#8217;t think this is bad at all and I even think it happened to almost all of us. Most people
-              working with Ruby On Rails were attracted by the power (and the beauty) of the Rails framework and had
-              never worked with Ruby before (and most of the times had no or little experience with web development like
-              myself). For a newbie it takes time to get used to and to find your way and understand the ins and outs of
-              the language and the framework. And sometimes it is more simple or quicker to come up with your own little
-              method like the example above. In fact, it&#8217;s a great way (or maybe the way) to learn a new language
-              like Ruby.</p>
+<p>I don&#8217;t think this is bad at all and I even think it happened to almost all of us. Most people working with Ruby On Rails were attracted by the power (and the beauty) of the Rails framework and had never worked with Ruby before (and most of the times had no or little experience with web development like myself). For a newbie it takes time to get used to and to find your way and understand the ins and outs of the language and the framework. And sometimes it is more simple or quicker to come up with your own little method like the example above. In fact, it&#8217;s a great way (or maybe the way) to learn a new language like Ruby.</p>
 
 
-            <p>The main point of Obie was that you need to learn the fundamentals, read some books and pair with senior
-              people. All true, but it takes time and it&#8217;s more difficult for someone starting this year with
-              Rails instead of let&#8217;s say 2005.</p>
+<p>The main point of Obie was that you need to learn the fundamentals, read some books and pair with senior people. All true, but it takes time and it&#8217;s more difficult for someone starting this year with Rails instead of let&#8217;s say 2005.</p>
 
 
-            <p>Rails is becoming a &#8216;big&#8217; framework and if you know it really well (and keep up with all the
-              new developments) it can make you really productive. But the learning curve is becoming steeper and
-              steeper &#8230;&#8230;.</p>
+<p>Rails is becoming a &#8216;big&#8217; framework and if you know it really well (and keep up with all the new developments) it can make you really productive. But the learning curve is becoming steeper and steeper &#8230;&#8230;.</p>
 
 
-            <p>If I look at available Rails jobs, everybody seems to look for a <a
-                href="http://jobs.rubynow.com/jobs/show/2256">rails ninja</a>, <a
-                href="http://jobs.rubynow.com:80/jobs/show/2118">rock star</a>, <a
-                href="http://railswork.com/jobs/224-kick-ass-ruby-programmer-for-start-up">kick ass developer</a>, <a
-                href="http://rubynow.com/jobs/show/2187">killer rails developer</a>, <a
-                href="http://blog.soocial.com/2008/4/10/crazy-rails-hacker">crazy rails hacker</a> or even an <a
-                href="http://blog.soocial.com/2008/4/10/inspiring-ruby-god">inspiring Ruby god</a>. I think they are
-              difficult to find.</p>
+<p>If I look at available Rails jobs, everybody seems to look for a <a href="http://jobs.rubynow.com/jobs/show/2256">rails ninja</a>, <a href="http://jobs.rubynow.com:80/jobs/show/2118">rock star</a>, <a href="http://railswork.com/jobs/224-kick-ass-ruby-programmer-for-start-up">kick ass developer</a>, <a href="http://rubynow.com/jobs/show/2187">killer rails developer</a>, <a href="http://blog.soocial.com/2008/4/10/crazy-rails-hacker">crazy rails hacker</a> or even an <a href="http://blog.soocial.com/2008/4/10/inspiring-ruby-god">inspiring Ruby god</a>. I think they are difficult to find.</p>
 
 
-            <p>If you want my advise, find a place where they see your learning potential and don&#8217;t mind that you
-              make mistakes like the ones Obie is talking about. It is all about learning by doing (and making mistakes
-              along the way).</p>
+<p>If you want my advise, find a place where they see your learning potential and don&#8217;t mind that you make mistakes like the ones Obie is talking about. It is all about learning by doing (and making mistakes along the way).</p>
 
 
-            <p>One more thing, Obie wrote <a
-                href="http://www.amazon.com/gp/product/0321445619?ie=UTF8&amp;tag=obiefernandez-20&amp;link_code=as3&amp;camp=211189&amp;creative=373489&amp;creativeASIN=0321445619">The
-                Rails Way</a>, which is <span class="caps">IMHO</span> the best Rails book at this moment. At the end of
-              his presentation Obie announced he is going to write a Rails Antipatterns book. I think this is not the
-              right approach, please write a <strong>Rails patterns</strong> book, that is much more positive!</p>
+<p>One more thing, Obie wrote <a href="http://www.amazon.com/gp/product/0321445619?ie=UTF8&amp;tag=obiefernandez-20&amp;link_code=as3&amp;camp=211189&amp;creative=373489&amp;creativeASIN=0321445619">The Rails Way</a>, which is <span class="caps">IMHO</span> the best Rails book at this moment. At the end of his presentation Obie announced he is going to write a Rails Antipatterns book. I think this is not the right approach, please write a <strong>Rails patterns</strong> book, that is much more positive!</p>
 
-          </div>
+</div>
 
 
-          <footer>
-            <p class="meta">
+  <footer>
+    <p class="meta">
+      
+  
 
+<span class="byline author vcard">Posted by <span class="fn">Frank Oxener</span></span>
 
+      
 
-              <span class="byline author vcard">Posted by <span class="fn">Frank Oxener</span></span>
 
 
 
@@ -228,146 +181,135 @@
 
 
 
+  
 
 
+<time datetime="2008-06-15T00:00:00+02:00" pubdate data-updated="true">Jun 15<span>th</span>, 2008</time>
+      
 
 
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://dovadi.com/2008/06/15/obie-fernandez-the-worst-code-you-have-ever-seen/" data-via="dovadi" data-counturl="http://dovadi.com/2008/06/15/obie-fernandez-the-worst-code-you-have-ever-seen/" >Tweet</a>
+  
+  
+  
+</div>
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2008/06/01/workshop-ruby-on-rails/" title="Previous Post: Workshop Ruby on Rails and Maglev">&laquo; Workshop Ruby on Rails and Maglev</a>
+      
+      
+        <a class="basic-alignment right" href="/2009/02/26/projects/" title="Next Post: Projects">Projects &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
 
-              <time datetime="2008-06-15T00:00:00+02:00" pubdate data-updated="true">Jun 15<span>th</span>, 2008</time>
+</div>
 
+<aside class="sidebar">
+  
+    
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/dovadi">@dovadi</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
 
-
-            </p>
-
-            <div class="sharing">
-
-              <a href="http://twitter.com/share" class="twitter-share-button"
-                data-url="http://dovadi.com/2008/06/15/obie-fernandez-the-worst-code-you-have-ever-seen/"
-                data-via="dovadi"
-                data-counturl="http://dovadi.com/2008/06/15/obie-fernandez-the-worst-code-you-have-ever-seen/">Tweet</a>
-
-
-
-            </div>
-
-
-            <p class="meta">
-
-              <a class="basic-alignment left" href="/2008/06/01/workshop-ruby-on-rails/"
-                title="Previous Post: Workshop Ruby on Rails and Maglev">&laquo; Workshop Ruby on Rails and Maglev</a>
-
-
-              <a class="basic-alignment right" href="/2009/02/26/projects/" title="Next Post: Projects">Projects
-                &raquo;</a>
-
-            </p>
-          </footer>
-        </article>
-
-      </div>
-
-      <aside class="sidebar">
-
-
-        <section>
-          <h1>GitHub Repos</h1>
-          <ul id="gh_repos">
-            <li class="loading">Status updating...</li>
-          </ul>
-
-          <a href="https://github.com/dovadi">@dovadi</a> on GitHub
-
-          <script type="text/javascript">
-            $.domReady(function () {
-              if (!window.jXHR) {
-                var jxhr = document.createElement('script');
-                jxhr.type = 'text/javascript';
-                jxhr.src = '/javascripts/libs/jXHR.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(jxhr, s);
-              }
-
-              github.showRepos({
-                user: 'dovadi',
-                count: 0,
-                skip_forks: true,
-                target: '#gh_repos'
-              });
-            });
-          </script>
-          <script src="/javascripts/github.js" type="text/javascript"> </script>
-        </section>
-
-
-        <section>
-
-          <a href="http://twitter.com/dovadi" class="twitter-follow-button" data-show-count="false">Follow @dovadi</a>
-
-        </section>
-
-        <section>
-          <h1>Recent Posts</h1>
-          <ul id="recent_posts">
-
-            <li class="post">
-              <a href="/2013/10/13/electrocamp-on-texel/">Electro:Camp on Texel</a>
-            </li>
-
-            <li class="post">
-              <a href="/2010/05/25/proposal-for-a-formal-commercial-co-operative/">Proposal for a formal (commercial)
-                co-operative</a>
-            </li>
-
-            <li class="post">
-              <a href="/2010/05/22/cowork-location-on-texel/">CoWork location on Texel</a>
-            </li>
-
-            <li class="post">
-              <a href="/2010/03/23/ideal-on-rails/">Active Merchant iDEAL plugin</a>
-            </li>
-
-            <li class="post">
-              <a href="/2009/08/21/gem-released-has_attributes_from/">Gem released: has_attributes_from</a>
-            </li>
-
-          </ul>
-        </section>
-        <section>
-          <h1>&nbsp;</h1>
-          <p>
-            <img width="255px" src="/images/logo_ad.png">
-          </p>
-        </section>
-
-
-      </aside>
+        github.showRepos({
+            user: 'dovadi',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  
+    <a href="http://twitter.com/dovadi" class="twitter-follow-button" data-show-count="false">Follow @dovadi</a>
+  
+</section>
+
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/10/13/electrocamp-on-texel/">Electro:Camp on Texel</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2010/05/25/proposal-for-a-formal-commercial-co-operative/">Proposal for a formal (commercial) co-operative</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2010/05/22/cowork-location-on-texel/">CoWork location on Texel</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2010/03/23/ideal-on-rails/">Active Merchant iDEAL plugin</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2009/08/21/gem-released-has_attributes_from/">Gem released: has_attributes_from</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+  <h1>&nbsp;</h1>
+  <p>
+   <img width="255px" src="/images/logo_ad.png">
+  </p>
+</section>
+
+  
+</aside>
 
 
     </div>
   </div>
-  <footer role="contentinfo">
-    <p>
-      Copyright &copy; 2021 - Frank Oxener -
-      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a
-          href="http://octopressthemes.com">Octopress Themes</a>.</span>
-    </p>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2021 - Frank Oxener -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a href="http://octopressthemes.com">Octopress Themes</a>.</span>
+</p>
 
-  </footer>
+</footer>
+  
 
-
-  <script type="text/javascript">
-    var disqus_shortname = 'dovadi';
-
-
-    var disqus_script = 'count.js';
-
+<script type="text/javascript">
+      var disqus_shortname = 'dovadi';
+      
+        
+        var disqus_script = 'count.js';
+      
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = 'https://' + disqus_shortname + '.disqus.com/' + disqus_script;
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
-  </script>
+</script>
 
 
 
@@ -376,7 +318,7 @@
 
 
   <script type="text/javascript">
-    (function () {
+    (function(){
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
@@ -390,5 +332,4 @@
 
 
 </body>
-
 </html>

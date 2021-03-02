@@ -1,26 +1,23 @@
+
 <!DOCTYPE html>
 <!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
-
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <title>Active Merchant iDEAL plugin - Dovadi</title>
   <meta name="author" content="Frank Oxener">
 
-
-  <meta name="description"
-    content="Description: iDEAL payment gateway for ActiveMerchant. What is iDEAL? iDEAL is a set of standards developed to facilitate online payments through the &hellip;">
-
+  
+  <meta name="description" content="Description: iDEAL payment gateway for ActiveMerchant. What is iDEAL? iDEAL is a set of standards developed to facilitate online payments through the &hellip;">
+  
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+  
   <link rel="canonical" href="http://dovadi.com/2010/03/23/ideal-on-rails/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -29,18 +26,16 @@
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="Dovadi" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-  <link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet"
-    type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet"
-    type="text/css">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
-
+  
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-410122-5']);
     _gaq.push(['_trackPageview']);
 
-    (function () {
+    (function() {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
@@ -50,50 +45,46 @@
 
 </head>
 
-<body>
-  <header role="banner">
-    <hgroup>
-      <h1><a href="/">Dovadi</a></h1>
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Dovadi</a></h1>
+  
+    <h2>None of us is as smart as all of us.</h2>
+  
+</hgroup>
 
-      <h2>None of us is as smart as all of us.</h2>
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:dovadi.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
 
-    </hgroup>
-
-  </header>
-  <nav role="navigation">
-    <ul class="subscription" data-subscription="rss">
-      <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-
-    </ul>
-
-    <form action="https://google.com/search" method="get">
-      <fieldset role="search">
-        <input type="hidden" name="q" value="site:dovadi.com" />
-        <input class="search" type="text" name="q" results="0" placeholder="Search" />
-      </fieldset>
-    </form>
-
-    <ul class="main-navigation">
-      <li><a href="/">Blog</a></li>
-      <li><a href="/blog/archives">Archives</a></li>
-      <li><a href="/about">About</a></li>
-    </ul>
-
-  </nav>
+</nav>
   <div id="main">
     <div id="content">
       <div>
-        <article class="hentry" role="article">
-
-          <header>
-
-            <h1 class="entry-title">Active Merchant iDEAL Plugin</h1>
-
-
-            <p class="meta">
-
-
-
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Active Merchant iDEAL Plugin</h1>
+    
+    
+      <p class="meta">
+        
 
 
 
@@ -102,228 +93,115 @@
 
 
 
-
-              <time datetime="2010-03-23T00:00:00+01:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2010</time>
-
-            </p>
-
-          </header>
+  
 
 
-          <div class="entry-content">
-            <h1>Description:</h1>
+<time datetime="2010-03-23T00:00:00+01:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2010</time>
+        
+      </p>
+    
+  </header>
 
 
-            <p><a href="http://www.ideal.nl">iDEAL</a> payment gateway for <a
-                href="http://www.activemerchant.org">ActiveMerchant</a>.</p>
+<div class="entry-content"><h1>Description:</h1>
 
 
-            <h1>What is iDEAL?</h1>
+<p><a href="http://www.ideal.nl">iDEAL</a> payment gateway for <a href="http://www.activemerchant.org">ActiveMerchant</a>.</p>
 
 
-            <p>iDEAL is a set of standards developed to facilitate online payments through the online banking
-              applications that most Dutch banks provide.</p>
+<h1>What is iDEAL?</h1>
 
 
-            <p>If a consumer already has online banking with <span class="caps">ABN</span> <span
-                class="caps">AMRO</span>, Fortis, <span class="caps">ING</span>/Postbank, Rabobank, or <span
-                class="caps">SNS</span> Bank, they can make payments using iDEAL in a way that they are already familiar
-              with.</p>
+<p>iDEAL is a set of standards developed to facilitate online payments through the online banking applications that most Dutch banks provide.</p>
 
 
-            <p>See <a href="http://ideal.nl">http://ideal.nl</a> and <a
-                href="http://idealdesk.com">http://idealdesk.com</a> for more information.</p>
+<p>If a consumer already has online banking with <span class="caps">ABN</span> <span class="caps">AMRO</span>, Fortis, <span class="caps">ING</span>/Postbank, Rabobank, or <span class="caps">SNS</span> Bank, they can make payments using iDEAL in a way that they are already familiar with.</p>
 
 
-            <h1>Merchant account</h1>
+<p>See <a href="http://ideal.nl">http://ideal.nl</a> and <a href="http://idealdesk.com">http://idealdesk.com</a> for more information.</p>
 
 
-            <p>In order to use iDEAL you will need to get an iDEAL merchant account from your bank. Every bank offers
-              â<cite>complete paymentâ</cite> services, which can obfuscate the right choice. The payment product that
-              you will want to get, in order to use this gateway class, is a bare bones iDEAL account.</p>
+<h1>Merchant account</h1>
 
 
-            <ul>
-              <li><span class="caps">ING</span>/Postbank: iDEAL Advanced</li>
-              <li><span class="caps">ABN</span> <span class="caps">AMRO</span>: iDEAL Zelfbouw</li>
-              <li>Fortis: ? (Unknown)</li>
-              <li>Rabobank: Rabo iDEAL Professional. (Unverified)</li>
-              <li><span class="caps">SNS</span> Bank: <a
-                  href="http://www.snsbank.nl/zakelijk/betalingsverkeer/kan-ik-ideal-gebruiken-voor-mijn-webwinkel.html">Not
-                  yet available</a></li>
-            </ul>
+<p>In order to use iDEAL you will need to get an iDEAL merchant account from your bank. Every bank offers â<cite>complete paymentâ</cite> services, which can obfuscate the right choice. The payment product that you will want to get, in order to use this gateway class, is a bare bones iDEAL account.</p>
 
 
-            <p>If you implement tests for other banks, if they require such acceptance tests, please do submit a patch
-              or contact me directly: frank@dovadi.com.</p>
+<ul>
+    <li><span class="caps">ING</span>/Postbank: iDEAL Advanced</li>
+    <li><span class="caps">ABN</span> <span class="caps">AMRO</span>: iDEAL Zelfbouw</li>
+    <li>Fortis: ? (Unknown)</li>
+    <li>Rabobank: Rabo iDEAL Professional. (Unverified)</li>
+    <li><span class="caps">SNS</span> Bank: <a href="http://www.snsbank.nl/zakelijk/betalingsverkeer/kan-ik-ideal-gebruiken-voor-mijn-webwinkel.html">Not yet available</a></li>
+</ul>
 
 
-            <h1>Install active_merchant_ideal:</h1>
+<p>If you implement tests for other banks, if they require such acceptance tests, please do submit a patch or contact me directly: frank@dovadi.com.</p>
 
 
-            <p>As a gem:</p>
+<h1>Install active_merchant_ideal:</h1>
 
 
-            <figure class='code'>
-              <figcaption><span></span></figcaption>
-              <div class="highlight">
-                <table>
-                  <tr>
-                    <td class="gutter">
-                      <pre class="line-numbers"><span class='line-number'>1</span>
-</pre>
-                    </td>
-                    <td class='code'>
-                      <pre><code class='ruby'><span class='line'><span class="n">sudo</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">active_merchant_ideal</span>
-</span></code></pre>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </figure>
+<p>As a gem:</p>
 
 
-            <p>Add the following to your environment.rb:</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">sudo</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">active_merchant_ideal</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Add the following to your environment.rb:</p>
 
 
 
 
-            <figure class='code'>
-              <figcaption><span></span></figcaption>
-              <div class="highlight">
-                <table>
-                  <tr>
-                    <td class="gutter">
-                      <pre class="line-numbers"><span class='line-number'>1</span>
-</pre>
-                    </td>
-                    <td class='code'>
-                      <pre><code class='ruby'><span class='line'><span class="n">config</span><span class="o">.</span><span class="n">gem</span> <span class="s1">&#39;active_merchant_ideal&#39;</span>
-</span></code></pre>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </figure>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">config</span><span class="o">.</span><span class="n">gem</span> <span class="s1">&#39;active_merchant_ideal&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
 
 
-            <p>As a plugin:<br />
-            <figure class='code'>
-              <figcaption><span></span></figcaption>
-              <div class="highlight">
-                <table>
-                  <tr>
-                    <td class="gutter">
-                      <pre class="line-numbers"><span class='line-number'>1</span>
-</pre>
-                    </td>
-                    <td class='code'>
-                      <pre><code class='ruby'><span class='line'><span class="o">.</span><span class="n">/script</span><span class="o">/</span><span class="n">plugin</span> <span class="n">install</span> <span class="ss">git</span><span class="p">:</span><span class="sr">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">dovadi</span><span class="o">/</span><span class="n">active_merchant_ideal</span><span class="o">.</span><span class="n">git</span><span class="o">&lt;</span><span class="n">br</span> <span class="sr">/&gt;</span>
-</span></code></pre>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </figure>
-            <h1>Generate private keys and certificates</h1>
-            <p>Messages to, and from, the acquirer, are all signed in order to prove their authenticity. This means that
-              you will have to have a certificate to sign your messages going to the acquirer <em>and</em> you will need
-              to have the certificate of the acquirer to verify its signed messages.</p>
-            <p>The latter can be downloaded from your acquirer after registration. The former, however, can be a
-              certificate signed by a CA authority or a self-signed certificate.</p>
-            <p>To create a self-signed certificate follow these steps:</p>
-            <figure class='code'>
-              <figcaption><span></span></figcaption>
-              <div class="highlight">
-                <table>
-                  <tr>
-                    <td class="gutter">
-                      <pre class="line-numbers"><span class='line-number'>1</span>
+<p>As a plugin:<br />
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">.</span><span class="n">/script</span><span class="o">/</span><span class="n">plugin</span> <span class="n">install</span> <span class="ss">git</span><span class="p">:</span><span class="sr">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">dovadi</span><span class="o">/</span><span class="n">active_merchant_ideal</span><span class="o">.</span><span class="n">git</span><span class="o">&lt;</span><span class="n">br</span> <span class="sr">/&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+<h1>Generate private keys and certificates</h1>
+<p>Messages to, and from, the acquirer, are all signed in order to prove their authenticity. This means that you will have to have a certificate to sign your messages going to the acquirer <em>and</em> you will need to have the certificate of the acquirer to verify its signed messages.</p>
+<p>The latter can be downloaded from your acquirer after registration. The former, however, can be a certificate signed by a CA authority or a self-signed certificate.</p>
+<p>To create a self-signed certificate follow these steps:</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
-</pre>
-                    </td>
-                    <td class='code'>
-                      <pre><code class='ruby'><span class='line'><span class="sr">/usr/</span><span class="n">bin</span><span class="o">/</span><span class="n">openssl</span> <span class="n">genrsa</span> <span class="o">-</span><span class="n">des3</span> <span class="o">-</span><span class="n">out</span> <span class="n">private_key</span><span class="o">.</span><span class="n">pem</span> <span class="o">-</span><span class="n">passout</span> <span class="ss">pass</span><span class="p">:</span><span class="n">the_passphrase</span> <span class="mi">1024</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="sr">/usr/</span><span class="n">bin</span><span class="o">/</span><span class="n">openssl</span> <span class="n">genrsa</span> <span class="o">-</span><span class="n">des3</span> <span class="o">-</span><span class="n">out</span> <span class="n">private_key</span><span class="o">.</span><span class="n">pem</span> <span class="o">-</span><span class="n">passout</span> <span class="ss">pass</span><span class="p">:</span><span class="n">the_passphrase</span> <span class="mi">1024</span>
 </span><span class='line'><span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">openssl</span> <span class="n">req</span> <span class="o">-</span><span class="n">x509</span> <span class="o">-</span><span class="kp">new</span> <span class="o">-</span><span class="n">key</span> <span class="n">private_key</span><span class="o">.</span><span class="n">pem</span> <span class="o">-</span><span class="n">passin</span> <span class="ss">pass</span><span class="p">:</span><span class="n">the_passphrase</span> <span class="o">-</span><span class="n">days</span> <span class="mi">3650</span> <span class="o">-</span><span class="n">out</span> <span class="n">private_certificate</span><span class="o">.</span><span class="n">cer</span>
-</span></code></pre>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </figure>`
-            <p>Substitute _the_passphrase__ with your own passphrase.</p>
-            <p>With the <span class="caps">ING</span> bank you upload your private certificate with your iDEAL
-              Dashboard. Be aware that there are two dashboards, one <a
-                href="https://idealtest.secure-ing.com/ideal/logon_ing.do">dashboard</a> for the test environment and
-              one <a href="https://ideal.secure-ing.com/ideal/logon_ing.do">dashboard</a> for the production
-              environment!</p>
-            <p>For more information see:</p>
-            <ul>
-              <li><a
-                  href="http://en.wikipedia.org/wiki/Certificate_authority">http://en.wikipedia.org/wiki/Certificate_authority</a>
-              </li>
-              <li><a
-                  href="http://en.wikipedia.org/wiki/Self-signed_certificate">http://en.wikipedia.org/wiki/Self-signed_certificate</a>
-              </li>
-            </ul>
-            <h1>Test</h1>
-            <h2>Test the gem</h2>
-            <p>You can run the tests from this gem with (inside the active_merchant_ideal directory):</p>
-            <figure class='code'>
-              <figcaption><span></span></figcaption>
-              <div class="highlight">
-                <table>
-                  <tr>
-                    <td class="gutter">
-                      <pre class="line-numbers"><span class='line-number'>1</span>
-</pre>
-                    </td>
-                    <td class='code'>
-                      <pre><code class='ruby'><span class='line'><span class="n">rake</span> <span class="nb">test</span>
-</span></code></pre>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </figure>
-            <h2>Run the remote tests</h2>
-            <ul>
-              <li>Create .active_merchant directory in your own home directory</li>
-              <li>Copy test/fixtures.yml to the .active_merchant directory</li>
-              <li>Fill in your own merchant id, passphrase and the correct locations to your private key and
-                certificates.</li>
-              <li>For running the <strong>seven prescribed remote test transactions</strong> (<span
-                  class="caps">ING</span> bank) which are needed to activate the iDEAL account use</li>
-            </ul>
-            <figure class='code'>
-              <figcaption><span></span></figcaption>
-              <div class="highlight">
-                <table>
-                  <tr>
-                    <td class="gutter">
-                      <pre class="line-numbers"><span class='line-number'>1</span>
-</pre>
-                    </td>
-                    <td class='code'>
-                      <pre><code class='ruby'><span class='line'><span class="n">rake</span> <span class="nb">test</span><span class="ss">:remote</span>
-</span></code></pre>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </figure>
-            <h1>Example (Rails)</h1>
-            <h2>First configure the gateway</h2>
-            <p>Put the following code in, for instance, an initializer:</p>
-            <figure class='code'>
-              <figcaption><span></span></figcaption>
-              <div class="highlight">
-                <table>
-                  <tr>
-                    <td class="gutter">
-                      <pre class="line-numbers"><span class='line-number'>1</span>
+</span></code></pre></td></tr></table></div></figure>`
+<p>Substitute _the_passphrase__ with your own passphrase.</p>
+<p>With the <span class="caps">ING</span> bank you upload your private certificate with your iDEAL Dashboard. Be aware that there are two dashboards, one <a href="https://idealtest.secure-ing.com/ideal/logon_ing.do">dashboard</a> for the test environment and one <a href="https://ideal.secure-ing.com/ideal/logon_ing.do">dashboard</a> for the production environment!</p>
+<p>For more information see:</p>
+<ul>
+    <li><a href="http://en.wikipedia.org/wiki/Certificate_authority">http://en.wikipedia.org/wiki/Certificate_authority</a></li>
+    <li><a href="http://en.wikipedia.org/wiki/Self-signed_certificate">http://en.wikipedia.org/wiki/Self-signed_certificate</a></li>
+</ul>
+<h1>Test</h1>
+<h2>Test the gem</h2>
+<p>You can run the tests from this gem with (inside the active_merchant_ideal directory):</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">rake</span> <span class="nb">test</span>
+</span></code></pre></td></tr></table></div></figure>
+<h2>Run the remote tests</h2>
+<ul>
+    <li>Create .active_merchant directory in your own home directory</li>
+    <li>Copy test/fixtures.yml to the .active_merchant directory</li>
+    <li>Fill in your own merchant id, passphrase and the correct locations to your private key and certificates.</li>
+    <li>For running the <strong>seven prescribed remote test transactions</strong> (<span class="caps">ING</span> bank) which are needed to activate the iDEAL account use</li>
+</ul>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">rake</span> <span class="nb">test</span><span class="ss">:remote</span>
+</span></code></pre></td></tr></table></div></figure>
+<h1>Example (Rails)</h1>
+<h2>First configure the gateway</h2>
+<p>Put the following code in, for instance, an initializer:</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -331,10 +209,7 @@
 <span class='line-number'>6</span>
 <span class='line-number'>7</span>
 <span class='line-number'>8</span>
-</pre>
-                    </td>
-                    <td class='code'>
-                      <pre><code class='ruby'><span class='line'><span class="no">IdealGateway</span><span class="o">.</span><span class="n">live_url</span> <span class="o">=</span> <span class="s1">&#39;https://ideal.secure-ing.com:443/ideal/iDeal&#39;</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="no">IdealGateway</span><span class="o">.</span><span class="n">live_url</span> <span class="o">=</span> <span class="s1">&#39;https://ideal.secure-ing.com:443/ideal/iDeal&#39;</span>
 </span><span class='line'><span class="no">IdealGateway</span><span class="o">.</span><span class="n">merchant_id</span> <span class="o">=</span> <span class="s1">&#39;00123456789&#39;</span>
 </span><span class='line'><span class="no">IdealGateway</span><span class="o">.</span><span class="n">passphrase</span> <span class="o">=</span> <span class="s1">&#39;the_private_key_passphrase&#39;</span>
 </span><span class='line'>
@@ -342,77 +217,37 @@
 </span><span class='line'><span class="no">IdealGateway</span><span class="o">.</span><span class="n">private_key_file</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">CERTIFICATE_ROOT</span><span class="p">,</span> <span class="s1">&#39;private_key.pem&#39;</span><span class="p">)</span>
 </span><span class='line'><span class="no">IdealGateway</span><span class="o">.</span><span class="n">private_certificate_file</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">CERTIFICATE_ROOT</span><span class="p">,</span> <span class="s1">&#39;private_certificate.cer&#39;</span><span class="p">)</span>
 </span><span class='line'><span class="no">IdealGateway</span><span class="o">.</span><span class="n">ideal_certificate_file</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">CERTIFICATE_ROOT</span><span class="p">,</span> <span class="s1">&#39;ideal.cer&#39;</span><span class="p">)</span>
-</span></code></pre>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </figure>
-            <h2>View</h2>
-            <p>Give the consumer a list of available issuer options:</p>
-            <figure class='code'>
-              <figcaption><span></span></figcaption>
-              <div class="highlight">
-                <table>
-                  <tr>
-                    <td class="gutter">
-                      <pre class="line-numbers"><span class='line-number'>1</span>
+</span></code></pre></td></tr></table></div></figure>
+<h2>View</h2>
+<p>Give the consumer a list of available issuer options:</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
-</pre>
-                    </td>
-                    <td class='code'>
-                      <pre><code class='ruby'><span class='line'><span class="n">gateway</span> <span class="o">=</span> <span class="ss">ActiveMerchant</span><span class="p">:</span><span class="ss">:Billing</span><span class="o">::</span><span class="no">IdealGateway</span><span class="o">.</span><span class="n">new</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">gateway</span> <span class="o">=</span> <span class="ss">ActiveMerchant</span><span class="p">:</span><span class="ss">:Billing</span><span class="o">::</span><span class="no">IdealGateway</span><span class="o">.</span><span class="n">new</span>
 </span><span class='line'><span class="n">issuers</span> <span class="o">=</span> <span class="n">gateway</span><span class="o">.</span><span class="n">issuers</span><span class="o">.</span><span class="n">list</span>
 </span><span class='line'><span class="n">sorted_issuers</span> <span class="o">=</span> <span class="n">issuers</span><span class="o">.</span><span class="n">sort_by</span> <span class="p">{</span> <span class="o">|</span><span class="n">issuer</span><span class="o">|</span> <span class="n">issuer</span><span class="o">[</span><span class="ss">:name</span><span class="o">]</span> <span class="p">}</span>
 </span><span class='line'><span class="nb">select</span><span class="p">(</span><span class="s1">&#39;purchase&#39;</span><span class="p">,</span> <span class="s1">&#39;issuer_id&#39;</span><span class="p">,</span> <span class="n">issuers</span><span class="o">.</span><span class="n">map</span> <span class="p">{</span> <span class="o">|</span><span class="n">issuer</span><span class="o">|</span> <span class="o">[</span><span class="n">issuer</span><span class="o">[</span><span class="ss">:name</span><span class="o">]</span><span class="p">,</span> <span class="n">issuer</span><span class="o">[</span><span class="ss">:id</span><span class="o">]]</span> <span class="p">})</span>
-</span></code></pre>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </figure>
-            <p>Could become:</p>
-            <figure class='code'>
-              <figcaption><span></span></figcaption>
-              <div class="highlight">
-                <table>
-                  <tr>
-                    <td class="gutter">
-                      <pre class="line-numbers"><span class='line-number'>1</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>Could become:</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
 <span class='line-number'>5</span>
 <span class='line-number'>6</span>
 <span class='line-number'>7</span>
-</pre>
-                    </td>
-                    <td class='code'>
-                      <pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="nb">select</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;purchase[issuer_id]&quot;</span><span class="o">&gt;</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="nb">select</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;purchase[issuer_id]&quot;</span><span class="o">&gt;</span>
 </span><span class='line'>  <span class="o">&lt;</span><span class="n">option</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;1006&quot;</span> <span class="n">selected</span><span class="o">=</span><span class="s2">&quot;selected&quot;</span><span class="o">&gt;</span><span class="no">ABN</span> <span class="no">AMRO</span> <span class="no">Bank</span><span class="o">&lt;</span><span class="sr">/option&gt;</span>
 </span><span class='line'><span class="sr">  &lt;option value=&quot;1017&quot;&gt;Asr bank&lt;/o</span><span class="n">ption</span><span class="o">&gt;</span>
 </span><span class='line'>  <span class="o">&lt;</span><span class="n">option</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;1003&quot;</span><span class="o">&gt;</span><span class="no">Postbank</span><span class="o">&lt;</span><span class="sr">/option&gt;</span>
 </span><span class='line'><span class="sr">  &lt;option value=&quot;1005&quot;&gt;Rabobank&lt;/o</span><span class="n">ption</span><span class="o">&gt;</span>
 </span><span class='line'>  <span class="o">&lt;</span><span class="n">option</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;1023&quot;</span><span class="o">&gt;</span><span class="no">Van</span> <span class="no">Lanschot</span><span class="o">&lt;</span><span class="sr">/option&gt;</span>
 </span><span class='line'><span class="sr">&lt;/se</span><span class="n">lect</span><span class="o">&gt;</span>
-</span></code></pre>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </figure>
-            <h2>Controller</h2>
-            <p>First you&#8217;ll need to setup a transaction and redirect the consumer there so she can make the
-              payment:</p>
-            <figure class='code'>
-              <figcaption><span></span></figcaption>
-              <div class="highlight">
-                <table>
-                  <tr>
-                    <td class="gutter">
-                      <pre class="line-numbers"><span class='line-number'>1</span>
+</span></code></pre></td></tr></table></div></figure>
+<h2>Controller</h2>
+<p>First you&#8217;ll need to setup a transaction and redirect the consumer there so she can make the payment:</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -443,10 +278,7 @@
 <span class='line-number'>29</span>
 <span class='line-number'>30</span>
 <span class='line-number'>31</span>
-</pre>
-                    </td>
-                    <td class='code'>
-                      <pre><code class='ruby'><span class='line'> <span class="k">class</span> <span class="nc">PurchasesController</span> <span class="o">&lt;</span> <span class="ss">ActionController</span><span class="p">:</span><span class="ss">:Base</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'> <span class="k">class</span> <span class="nc">PurchasesController</span> <span class="o">&lt;</span> <span class="ss">ActionController</span><span class="p">:</span><span class="ss">:Base</span>
 </span><span class='line'>   <span class="k">def</span> <span class="nf">create</span>
 </span><span class='line'>     <span class="c1"># â?¬10.00 in cents.</span>
 </span><span class='line'>     <span class="n">purchase</span> <span class="o">=</span> <span class="vi">@user</span><span class="o">.</span><span class="n">purchases</span><span class="o">.</span><span class="n">build</span><span class="p">(</span><span class="ss">:price</span> <span class="o">=&gt;</span> <span class="mi">1000</span><span class="p">)</span>
@@ -477,21 +309,9 @@
 </span><span class='line'>     <span class="k">end</span>
 </span><span class='line'>   <span class="k">end</span>
 </span><span class='line'> <span class="k">end</span>
-</span></code></pre>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </figure>
-            <p>After the consumer is done with the payment she will be redirected to the <em>:return_url</em>.
-              It&#8217;s now <em>your</em> responsibility as merchant to check if the payment has been made:</p>
-            <figure class='code'>
-              <figcaption><span></span></figcaption>
-              <div class="highlight">
-                <table>
-                  <tr>
-                    <td class="gutter">
-                      <pre class="line-numbers"><span class='line-number'>1</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>After the consumer is done with the payment she will be redirected to the <em>:return_url</em>. It&#8217;s now <em>your</em> responsibility as merchant to check if the payment has been made:</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -502,10 +322,7 @@
 <span class='line-number'>9</span>
 <span class='line-number'>10</span>
 <span class='line-number'>11</span>
-</pre>
-                    </td>
-                    <td class='code'>
-                      <pre><code class='ruby'><span class='line'> <span class="k">class</span> <span class="nc">PurchasesController</span> <span class="o">&lt;</span> <span class="ss">ActionController</span><span class="p">:</span><span class="ss">:Base</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'> <span class="k">class</span> <span class="nc">PurchasesController</span> <span class="o">&lt;</span> <span class="ss">ActionController</span><span class="p">:</span><span class="ss">:Base</span>
 </span><span class='line'>   <span class="k">def</span> <span class="nf">show</span>
 </span><span class='line'>     <span class="n">gateway</span> <span class="o">=</span> <span class="ss">ActiveMerchant</span><span class="p">:</span><span class="ss">:Billing</span><span class="o">::</span><span class="no">IdealGateway</span><span class="o">.</span><span class="n">new</span>
 </span><span class='line'>     <span class="n">transaction_status</span> <span class="o">=</span> <span class="n">gateway</span><span class="o">.</span><span class="n">capture</span><span class="p">(</span><span class="vi">@purchase</span><span class="o">.</span><span class="n">transaction_id</span><span class="p">)</span>
@@ -516,40 +333,26 @@
 </span><span class='line'>     <span class="k">end</span>
 </span><span class='line'>   <span class="k">end</span>
 </span><span class='line'> <span class="k">end</span>
-</span></code></pre>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </figure>
-            <h1>History</h1>
-            <p>In 2006 an iDEAL payment library was written in Ruby for a web shop build in Rails for selling mobile
-              phone credits. It was basically a translation of the <span class="caps">PHP</span> example given by the
-              iDEAL organization (see iDEAL Advanced Integration Manual <span class="caps">PHP</span>). Is was released
-              as the ideal-on-rails plugin.</p>
-            <p>In 2007 this code was refactored as a patch for the ActiveMerchant library, this was mainly done by <a
-                href="http://www.fngtps.com/">Fingertips</a> for a client project. This patch was never accepted due to
-              the fact it was too different (and maybe too obscure) from the &#8216;normal&#8217; credit card gateways.
-            </p>
-            <p>In 2009 Fingertips forked the ActiveMerchant library and added an iDEAL gateway (presumable based on the
-              first ActiveMerchant patch) to a new ideal branch.</p>
-            <p>In 2010 this code was extracted and converted into a separate gem, so it can be more easily used in
-              combination with the latest version of ActiveMerchant. This library is just an extraction, nothing more
-              and nothing less. There are no fundamental changes between the code from the ideal branch and the code of
-              this gem.</p>
-            <h1>Maintainer</h1>
-            <p>This gem is maintained by <a href="http://dovadi.com">Agile Dovadi BV</a>, contact <a
-                href="mailto:frank@dovadi.com">Frank Oxener</a></p>
+</span></code></pre></td></tr></table></div></figure>
+<h1>History</h1>
+<p>In 2006 an iDEAL payment library was written in Ruby for a web shop build in Rails for selling mobile phone credits. It was basically a translation of the <span class="caps">PHP</span> example given by the iDEAL organization (see iDEAL Advanced Integration Manual <span class="caps">PHP</span>). Is was released as the ideal-on-rails plugin.</p>
+<p>In 2007 this code was refactored as a patch for the ActiveMerchant library, this was mainly done by <a href="http://www.fngtps.com/">Fingertips</a> for a client project. This patch was never accepted due to the fact it was too different (and maybe too obscure) from the &#8216;normal&#8217; credit card gateways.</p>
+<p>In 2009 Fingertips forked the ActiveMerchant library and added an iDEAL gateway (presumable based on the first ActiveMerchant patch) to a new ideal branch.</p>
+<p>In 2010 this code was extracted and converted into a separate gem, so it can be more easily used in combination with the latest version of ActiveMerchant. This library is just an extraction, nothing more and nothing less. There are no fundamental changes between the code from the ideal branch and the code of this gem.</p>
+<h1>Maintainer</h1>
+<p>This gem is maintained by <a href="http://dovadi.com">Agile Dovadi BV</a>, contact <a href="mailto:frank@dovadi.com">Frank Oxener</a></p>
 
-          </div>
+</div>
 
 
-          <footer>
-            <p class="meta">
+  <footer>
+    <p class="meta">
+      
+  
 
+<span class="byline author vcard">Posted by <span class="fn">Frank Oxener</span></span>
 
-
-              <span class="byline author vcard">Posted by <span class="fn">Frank Oxener</span></span>
+      
 
 
 
@@ -558,144 +361,135 @@
 
 
 
+  
 
 
+<time datetime="2010-03-23T00:00:00+01:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2010</time>
+      
 
 
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://dovadi.com/2010/03/23/ideal-on-rails/" data-via="dovadi" data-counturl="http://dovadi.com/2010/03/23/ideal-on-rails/" >Tweet</a>
+  
+  
+  
+</div>
 
-              <time datetime="2010-03-23T00:00:00+01:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2010</time>
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2009/08/21/gem-released-has_attributes_from/" title="Previous Post: Gem released: has_attributes_from">&laquo; Gem released: has_attributes_from</a>
+      
+      
+        <a class="basic-alignment right" href="/2010/05/22/cowork-location-on-texel/" title="Next Post: CoWork location on Texel">CoWork location on Texel &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
 
+</div>
 
+<aside class="sidebar">
+  
+    
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/dovadi">@dovadi</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
 
-            </p>
-
-            <div class="sharing">
-
-              <a href="http://twitter.com/share" class="twitter-share-button"
-                data-url="http://dovadi.com/2010/03/23/ideal-on-rails/" data-via="dovadi"
-                data-counturl="http://dovadi.com/2010/03/23/ideal-on-rails/">Tweet</a>
-
-
-
-            </div>
-
-
-            <p class="meta">
-
-              <a class="basic-alignment left" href="/2009/08/21/gem-released-has_attributes_from/"
-                title="Previous Post: Gem released: has_attributes_from">&laquo; Gem released: has_attributes_from</a>
-
-
-              <a class="basic-alignment right" href="/2010/05/22/cowork-location-on-texel/"
-                title="Next Post: CoWork location on Texel">CoWork location on Texel &raquo;</a>
-
-            </p>
-          </footer>
-        </article>
-
-      </div>
-
-      <aside class="sidebar">
-
-
-        <section>
-          <h1>GitHub Repos</h1>
-          <ul id="gh_repos">
-            <li class="loading">Status updating...</li>
-          </ul>
-
-          <a href="https://github.com/dovadi">@dovadi</a> on GitHub
-
-          <script type="text/javascript">
-            $.domReady(function () {
-              if (!window.jXHR) {
-                var jxhr = document.createElement('script');
-                jxhr.type = 'text/javascript';
-                jxhr.src = '/javascripts/libs/jXHR.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(jxhr, s);
-              }
-
-              github.showRepos({
-                user: 'dovadi',
-                count: 0,
-                skip_forks: true,
-                target: '#gh_repos'
-              });
-            });
-          </script>
-          <script src="/javascripts/github.js" type="text/javascript"> </script>
-        </section>
+        github.showRepos({
+            user: 'dovadi',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
-        <section>
+<section>
+  
+    <a href="http://twitter.com/dovadi" class="twitter-follow-button" data-show-count="false">Follow @dovadi</a>
+  
+</section>
 
-          <a href="http://twitter.com/dovadi" class="twitter-follow-button" data-show-count="false">Follow @dovadi</a>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/10/13/electrocamp-on-texel/">Electro:Camp on Texel</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2010/05/25/proposal-for-a-formal-commercial-co-operative/">Proposal for a formal (commercial) co-operative</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2010/05/22/cowork-location-on-texel/">CoWork location on Texel</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2010/03/23/ideal-on-rails/">Active Merchant iDEAL plugin</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2009/08/21/gem-released-has_attributes_from/">Gem released: has_attributes_from</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+  <h1>&nbsp;</h1>
+  <p>
+   <img width="255px" src="/images/logo_ad.png">
+  </p>
+</section>
 
-        </section>
-
-        <section>
-          <h1>Recent Posts</h1>
-          <ul id="recent_posts">
-
-            <li class="post">
-              <a href="/2013/10/13/electrocamp-on-texel/">Electro:Camp on Texel</a>
-            </li>
-
-            <li class="post">
-              <a href="/2010/05/25/proposal-for-a-formal-commercial-co-operative/">Proposal for a formal (commercial)
-                co-operative</a>
-            </li>
-
-            <li class="post">
-              <a href="/2010/05/22/cowork-location-on-texel/">CoWork location on Texel</a>
-            </li>
-
-            <li class="post">
-              <a href="/2010/03/23/ideal-on-rails/">Active Merchant iDEAL plugin</a>
-            </li>
-
-            <li class="post">
-              <a href="/2009/08/21/gem-released-has_attributes_from/">Gem released: has_attributes_from</a>
-            </li>
-
-          </ul>
-        </section>
-        <section>
-          <h1>&nbsp;</h1>
-          <p>
-            <img width="255px" src="/images/logo_ad.png">
-          </p>
-        </section>
-
-
-      </aside>
+  
+</aside>
 
 
     </div>
   </div>
-  <footer role="contentinfo">
-    <p>
-      Copyright &copy; 2021 - Frank Oxener -
-      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a
-          href="http://octopressthemes.com">Octopress Themes</a>.</span>
-    </p>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2021 - Frank Oxener -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a href="http://octopressthemes.com">Octopress Themes</a>.</span>
+</p>
 
-  </footer>
+</footer>
+  
 
-
-  <script type="text/javascript">
-    var disqus_shortname = 'dovadi';
-
-
-    var disqus_script = 'count.js';
-
+<script type="text/javascript">
+      var disqus_shortname = 'dovadi';
+      
+        
+        var disqus_script = 'count.js';
+      
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = 'https://' + disqus_shortname + '.disqus.com/' + disqus_script;
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
-  </script>
+</script>
 
 
 
@@ -704,7 +498,7 @@
 
 
   <script type="text/javascript">
-    (function () {
+    (function(){
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
@@ -718,5 +512,4 @@
 
 
 </body>
-
 </html>
