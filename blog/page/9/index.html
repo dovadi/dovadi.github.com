@@ -1,23 +1,26 @@
-
 <!DOCTYPE html>
 <!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
   <meta charset="utf-8">
   <title>Dovadi</title>
   <meta name="author" content="Frank Oxener">
 
-  
-  <meta name="description" content="De zomervakantie is voorbij, maar we hebben niet stilgezeten! We hebben gewerkt aan ons summer-of-rails project: beloofdisbeloofd.nl. Een toepassing &hellip;">
-  
+
+  <meta name="description"
+    content="De zomervakantie is voorbij, maar we hebben niet stilgezeten! We hebben gewerkt aan ons summer-of-rails project: beloofdisbeloofd.nl. Een toepassing &hellip;">
+
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
+
   <link rel="canonical" href="http://dovadi.com/blog/page/9/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -26,16 +29,18 @@
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="Dovadi" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet"
+    type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet"
+    type="text/css">
 
-  
+
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-410122-5']);
     _gaq.push(['_trackPageview']);
 
-    (function() {
+    (function () {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
@@ -45,409 +50,460 @@
 
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Dovadi</a></h1>
-  
-    <h2>None of us is as smart as all of us.</h2>
-  
-</hgroup>
+<body>
+  <header role="banner">
+    <hgroup>
+      <h1><a href="/">Dovadi</a></h1>
 
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="https://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:dovadi.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/about">About</a></li>
-</ul>
+      <h2>None of us is as smart as all of us.</h2>
 
-</nav>
+    </hgroup>
+
+  </header>
+  <nav role="navigation">
+    <ul class="subscription" data-subscription="rss">
+      <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+
+    </ul>
+
+    <form action="https://google.com/search" method="get">
+      <fieldset role="search">
+        <input type="hidden" name="q" value="site:dovadi.com" />
+        <input class="search" type="text" name="q" results="0" placeholder="Search" />
+      </fieldset>
+    </form>
+
+    <ul class="main-navigation">
+      <li><a href="/">Blog</a></li>
+      <li><a href="/blog/archives">Archives</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+
+  </nav>
   <div id="main">
     <div id="content">
       <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/09/05/ons-summer-of-rails-project/">Ons Summer-of-Rails Project</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
+        <article>
 
+          <header>
 
+            <h1 class="entry-title"><a href="/2006/09/05/ons-summer-of-rails-project/">Ons Summer-of-Rails Project</a>
+            </h1>
 
 
+            <p class="meta">
 
-  
 
 
-<time datetime="2006-09-05T00:00:00+02:00" pubdate data-updated="true">Sep 5<span>th</span>, 2006</time>
-        
-      </p>
-    
-  </header>
 
 
-  <div class="entry-content"><p>De zomervakantie is voorbij, maar we hebben niet stilgezeten! We hebben gewerkt aan ons <a href="http://summerofrails.org">summer-of-rails</a> project: <a href="http://beloofdisbeloofd.nl">beloofdisbeloofd.nl</a>. Een toepassing van <a href="https://gettingreal.37signals.com/">getting real</a> hebben toegepast, dat wil zeggen de basics, minimale functionaliteit en kijken wat de wereld er van vindt.</p>
 
 
-<p>Naar aanleiding van de komende verkiezingen willen we met deze site een collectief geweten creÃ«ren, waarmee we politici aan hun beloftes willen herinneren en houden. Tegelijkertijd willen we achterhalen wat het publiek van de gedane beloftes vindt. Elke bezoeker kan van een belofte aangeven of deze haalbaar of niet haalbaar wordt geacht.</p>
 
 
-<p>Met <a href="http://beloofdisbeloofd.nl">BeloofdIsBeloofd</a> kan iedereen:</p>
 
 
-<ul>
-    <li>een belofte vastleggen ( <a href="http://www.beloofdisbeloofd.nl/promisors/new">voer een nieuwe belofte in</a> );</li>
-    <li>aangeven of een belofte haalbaar is;</li>
-    <li>commentaar geven op een belofte.</li>
-</ul>
 
+              <time datetime="2006-09-05T00:00:00+02:00" pubdate data-updated="true">Sep 5<span>th</span>, 2006</time>
 
-<p>Je kunt ook een belofte opvoeren van een sporter, trainer, manager, vriend, familielid of  van je zelf.</p>
+            </p>
 
+          </header>
 
-<p><strong>Check it out</strong> en laat ons weten wat je er van vindt!</p>
 
-</div>
-  
-  
+          <div class="entry-content">
+            <p>De zomervakantie is voorbij, maar we hebben niet stilgezeten! We hebben gewerkt aan ons <a
+                href="http://summerofrails.org">summer-of-rails</a> project: <a
+                href="http://beloofdisbeloofd.nl">beloofdisbeloofd.nl</a>. Een toepassing van <a
+                href="https://gettingreal.37signals.com/">getting real</a> hebben toegepast, dat wil zeggen de basics,
+              minimale functionaliteit en kijken wat de wereld er van vindt.</p>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/05/31/ruby-1-8-4-en-mongrel-op-windows/">Ruby 1.8.4 en Mongrel Onder Windows</a></h1>
-    
-    
-      <p class="meta">
-        
+            <p>Naar aanleiding van de komende verkiezingen willen we met deze site een collectief geweten creÃ«ren,
+              waarmee we politici aan hun beloftes willen herinneren en houden. Tegelijkertijd willen we achterhalen wat
+              het publiek van de gedane beloftes vindt. Elke bezoeker kan van een belofte aangeven of deze haalbaar of
+              niet haalbaar wordt geacht.</p>
 
 
+            <p>Met <a href="http://beloofdisbeloofd.nl">BeloofdIsBeloofd</a> kan iedereen:</p>
 
 
+            <ul>
+              <li>een belofte vastleggen ( <a href="http://www.beloofdisbeloofd.nl/promisors/new">voer een nieuwe
+                  belofte in</a> );</li>
+              <li>aangeven of een belofte haalbaar is;</li>
+              <li>commentaar geven op een belofte.</li>
+            </ul>
 
 
+            <p>Je kunt ook een belofte opvoeren van een sporter, trainer, manager, vriend, familielid of van je zelf.
+            </p>
 
 
-  
+            <p><strong>Check it out</strong> en laat ons weten wat je er van vindt!</p>
 
+          </div>
 
-<time datetime="2006-05-31T00:00:00+02:00" pubdate data-updated="true">May 31<span>st</span>, 2006</time>
-        
-      </p>
-    
-  </header>
 
 
-  <div class="entry-content"><p>Door de RubyEnRails 2006 dag was ik geÃ¯nteresseerd geraakt in <a href="http://mongrel.rubyforge.org/">Mongrel</a>.</p>
 
+        </article>
 
-<p>&#8220;<em>Mongrel is a fast <span class="caps">HTTP</span> library and server for Ruby that is intended for hosting Ruby web applications of any kind using plain <span class="caps">HTTP</span> rather than FastCGI or <span class="caps">SCGI</span>.</em>&#8221;</p>
 
+        <article>
 
-<p>Dus de stoute schoenen aangetrokken en Mongrel even installeren. Dat is op zich eenvoudig (<em>gem install mongrel_), maar voor windows heb je ook een win32-service nodig (<em>gem install win32-service_). Ook goed te doen, maar dan moet je wel minimaal ruby 1.8.3 hebben. OK, ik had nog 1.8.2, dus deÃ¯nstalleren maar en dan de <a href="http://rubyforge.org/projects/rubyinstaller/">One-Click Ruby Installer</a>   <br />
- (<em>versie 1.8.4 RC2</em>) klikken en aan de slag! (</em>Klinkt iets eenvoudiger dan het is, omdat bij de uninstaller natuurlijk ook alle gems worden verwijderd!</em>)</p>
+          <header>
 
+            <h1 class="entry-title"><a href="/2006/05/31/ruby-1-8-4-en-mongrel-op-windows/">Ruby 1.8.4 en Mongrel Onder
+                Windows</a></h1>
 
-<p>Met 1.8.4 kreeg opeens allerlei parse-errors bij een applicatie die onder 1.8.2 prima runde. Ik kreeg meldingen zoals <em>parse error, unexpected $, expecting kEND</em> bij het renderen van een layout! Het bleek uiteindelijk dat er hier en daar een tab in de layout.rhtml stond en daar ging het mis!</p>
 
+            <p class="meta">
 
-<p>Ik vraag me af of anderen ook tegen problemen zijn aangelopen bij een upgrade naar 1.8.4.</p>
 
 
-<p>Mongrel werkt verder zonder problemen. Ik ben benieuwd wie er al meer ervaring mee heeft op gedaan in een productieomgeving en hoe dan de performance is.</p>
 
-</div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/05/29/subversion-op-rubyforge/">Subversion Op Rubyforge</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
 
 
 
+              <time datetime="2006-05-31T00:00:00+02:00" pubdate data-updated="true">May 31<span>st</span>, 2006</time>
 
+            </p>
 
-  
+          </header>
 
 
-<time datetime="2006-05-29T00:00:00+02:00" pubdate data-updated="true">May 29<span>th</span>, 2006</time>
-        
-      </p>
-    
-  </header>
+          <div class="entry-content">
+            <p>Door de RubyEnRails 2006 dag was ik geÃ¯nteresseerd geraakt in <a
+                href="http://mongrel.rubyforge.org/">Mongrel</a>.</p>
 
 
-  <div class="entry-content"><p>Om als gebruiker op de subversion repository van Rubyforge in te loggen moet je een public key aan je account toevoegen. <br />
-Een private key/public key set maak je op linux/os x aan met:<br />
-ssh-keygen -t rsa. <br />
-Passphrase kun je leeg laten als hierom gevraagd wordt.<br />
-De public key staat vervolgens in je homefolder: .ssh/id_rsa.pub. <br />
-De tekst in dit bestand kun je in je Rubyforge account toevoegen. Het duurt even voordat dit verwerkt is, maar daarna kun je in subversion inloggen zonder steeds je wachtwoord in te voeren.<br />
-Op windows is het met Cygwin ook mogelijk om dit proces uit te voeren, ik heb het alleen nog niet uitgezocht.</p>
+            <p>&#8220;<em>Mongrel is a fast <span class="caps">HTTP</span> library and server for Ruby that is intended
+                for hosting Ruby web applications of any kind using plain <span class="caps">HTTP</span> rather than
+                FastCGI or <span class="caps">SCGI</span>.</em>&#8221;</p>
 
 
-<p>Als je alleen Subclipse gebruikt vanuit Radrails/Eclipse is een public key minder nodig, omdat je je password kunt opslaan in subclipse. De performance is dan wel minder omdat steeds de password authenticatie weer moet plaats vinden.</p>
+            <p>Dus de stoute schoenen aangetrokken en Mongrel even installeren. Dat is op zich eenvoudig (<em>gem
+                install mongrel_), maar voor windows heb je ook een win32-service nodig (<em>gem install
+                  win32-service_). Ook goed te doen, maar dan moet je wel minimaal ruby 1.8.3 hebben. OK, ik had nog
+                  1.8.2, dus deÃ¯nstalleren maar en dan de <a
+                    href="http://rubyforge.org/projects/rubyinstaller/">One-Click Ruby Installer</a> <br />
+                  (<em>versie 1.8.4 RC2</em>) klikken en aan de slag! (</em>Klinkt iets eenvoudiger dan het is, omdat
+                bij de uninstaller natuurlijk ook alle gems worden verwijderd!</em>)</p>
 
-</div>
-  
-  
 
+            <p>Met 1.8.4 kreeg opeens allerlei parse-errors bij een applicatie die onder 1.8.2 prima runde. Ik kreeg
+              meldingen zoals <em>parse error, unexpected $, expecting kEND</em> bij het renderen van een layout! Het
+              bleek uiteindelijk dat er hier en daar een tab in de layout.rhtml stond en daar ging het mis!</p>
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/05/29/rubyopdekaart-in-rubyforge/">RubyOpDeKaart in Rubyforge</a></h1>
-    
-    
-      <p class="meta">
-        
 
+            <p>Ik vraag me af of anderen ook tegen problemen zijn aangelopen bij een upgrade naar 1.8.4.</p>
 
 
+            <p>Mongrel werkt verder zonder problemen. Ik ben benieuwd wie er al meer ervaring mee heeft op gedaan in een
+              productieomgeving en hoe dan de performance is.</p>
 
+          </div>
 
 
 
 
-  
+        </article>
 
 
-<time datetime="2006-05-29T00:00:00+02:00" pubdate data-updated="true">May 29<span>th</span>, 2006</time>
-        
-      </p>
-    
-  </header>
+        <article>
 
+          <header>
 
-  <div class="entry-content"><p>De code van de workshop is intussen een <br />
-<a href="http://rubyforge.org/projects/ruby-kaart/">Rubyforge</a> project geworden.</p>
+            <h1 class="entry-title"><a href="/2006/05/29/subversion-op-rubyforge/">Subversion Op Rubyforge</a></h1>
 
 
-<p>De orginele code van de workshop staat in release 0.1.0. De huidige versie 0.1.1 heeft een migration script om de postcode tabel te importeren. Daarnaast is de code wat opgeschoond en werken de testen nu ook.</p>
+            <p class="meta">
 
 
-<p>Dat is dan ook de eerste regel van het project: de testen moeten draaien voordat we code inchecken.</p>
 
 
-<p>Hoe we verder gaan met dit project is nog een beetje open. Gebruik de feature requests op Rubyforge om de functionaliteit van de volgende release mede te bepalen.</p>
 
 
-<p>Ontwikkelaars die mee willen doen aan dit project kunnen zich bij mij aanmelden met hun Rubyforge account zodat ik ze kan toevoegen aan het project.</p>
 
-</div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/05/23/lees-wat-anderen-vinden-over-de-rubyenrails-2006-dag/">Lees Wat Anderen Vinden Over De RubyEnRails 2006 Dag.</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
+              <time datetime="2006-05-29T00:00:00+02:00" pubdate data-updated="true">May 29<span>th</span>, 2006</time>
 
+            </p>
 
+          </header>
 
 
+          <div class="entry-content">
+            <p>Om als gebruiker op de subversion repository van Rubyforge in te loggen moet je een public key aan je
+              account toevoegen. <br />
+              Een private key/public key set maak je op linux/os x aan met:<br />
+              ssh-keygen -t rsa. <br />
+              Passphrase kun je leeg laten als hierom gevraagd wordt.<br />
+              De public key staat vervolgens in je homefolder: .ssh/id_rsa.pub. <br />
+              De tekst in dit bestand kun je in je Rubyforge account toevoegen. Het duurt even voordat dit verwerkt is,
+              maar daarna kun je in subversion inloggen zonder steeds je wachtwoord in te voeren.<br />
+              Op windows is het met Cygwin ook mogelijk om dit proces uit te voeren, ik heb het alleen nog niet
+              uitgezocht.</p>
 
-  
 
+            <p>Als je alleen Subclipse gebruikt vanuit Radrails/Eclipse is een public key minder nodig, omdat je je
+              password kunt opslaan in subclipse. De performance is dan wel minder omdat steeds de password
+              authenticatie weer moet plaats vinden.</p>
 
-<time datetime="2006-05-23T00:00:00+02:00" pubdate data-updated="true">May 23<span>rd</span>, 2006</time>
-        
-      </p>
-    
-  </header>
+          </div>
 
 
-  <div class="entry-content"><p>Hierbij een aantal verwijzingen in willekeurige volgorde naar andere blogs met feedback over de RubyEnRails 2006 dag.</p>
 
 
-<p><a href="http://www.vandomburg.net/">Roderick van Domburg</a></p>
+        </article>
 
 
-<p><a href="http://www.hollandonrails.nl/weblog/bekijk/54">Hollandonrails</a></p>
+        <article>
 
+          <header>
 
-<p><a href="http://juice10.com/blog/articles/2006/05/18/rubyenrails-2006-finished">Juice10</a></p>
+            <h1 class="entry-title"><a href="/2006/05/29/rubyopdekaart-in-rubyforge/">RubyOpDeKaart in Rubyforge</a>
+            </h1>
 
 
-<p><a href="http://www.rubyenrails.nl/articles/2006/05/20/ruby-en-rails-2006-achter-de-rug">RubyEnRails.nl</a></p>
+            <p class="meta">
 
 
-<p><a href="http://blog.japj.net/articles/2006/05/18/rubyenrails-2006-day-a-success"><span class="caps">JAPJ</span>.blog</a></p>
 
 
-<p><a href="http://www.blueace.nl/2006/05/ruby-en-rails-met-hoffelijke-trekjes/">BlueAce</a></p>
 
 
-<p>En kijk, ook met dank aan BlueAce en anderen, ook naar de <a href="http://www.flickr.com/photos/tags/rubyenrails/">foto&#8217;s</a> van de dag en in het bijzonder naar een foto van mijn <a href="http://flickr.com/photos/blueace/148852597/">presentatie</a>.  Gelukkig ook vereeuwigd&#8230; :-).</p>
 
-</div>
-  
-  
 
 
-    </article>
-  
-  <div class="pagination">
-    
-      <a class="prev" href="/blog/page/10/">&larr; Older</a>
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-    <a class="next" href="/blog/page/8/">Newer &rarr;</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/dovadi">@dovadi</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
 
-        github.showRepos({
-            user: 'dovadi',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
 
 
-<section>
-  
-    <a href="http://twitter.com/dovadi" class="twitter-follow-button" data-show-count="false">Follow @dovadi</a>
-  
-</section>
+              <time datetime="2006-05-29T00:00:00+02:00" pubdate data-updated="true">May 29<span>th</span>, 2006</time>
 
-<section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/2013/10/13/electrocamp-on-texel/">Electro:Camp on Texel</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2010/05/25/proposal-for-a-formal-commercial-co-operative/">Proposal for a formal (commercial) co-operative</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2010/05/22/cowork-location-on-texel/">CoWork location on Texel</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2010/03/23/ideal-on-rails/">Active Merchant iDEAL plugin</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2009/08/21/gem-released-has_attributes_from/">Gem released: has_attributes_from</a>
-      </li>
-    
-  </ul>
-</section>
-<section>
-  <h1>&nbsp;</h1>
-  <p>
-   <img width="255px" src="/images/logo_ad.png">
-  </p>
-</section>
+            </p>
 
-  
-</aside>
+          </header>
+
+
+          <div class="entry-content">
+            <p>De code van de workshop is intussen een <br />
+              <a href="http://rubyforge.org/projects/ruby-kaart/">Rubyforge</a> project geworden.
+            </p>
+
+
+            <p>De orginele code van de workshop staat in release 0.1.0. De huidige versie 0.1.1 heeft een migration
+              script om de postcode tabel te importeren. Daarnaast is de code wat opgeschoond en werken de testen nu
+              ook.</p>
+
+
+            <p>Dat is dan ook de eerste regel van het project: de testen moeten draaien voordat we code inchecken.</p>
+
+
+            <p>Hoe we verder gaan met dit project is nog een beetje open. Gebruik de feature requests op Rubyforge om de
+              functionaliteit van de volgende release mede te bepalen.</p>
+
+
+            <p>Ontwikkelaars die mee willen doen aan dit project kunnen zich bij mij aanmelden met hun Rubyforge account
+              zodat ik ze kan toevoegen aan het project.</p>
+
+          </div>
+
+
+
+
+        </article>
+
+
+        <article>
+
+          <header>
+
+            <h1 class="entry-title"><a href="/2006/05/23/lees-wat-anderen-vinden-over-de-rubyenrails-2006-dag/">Lees Wat
+                Anderen Vinden Over De RubyEnRails 2006 Dag.</a></h1>
+
+
+            <p class="meta">
+
+
+
+
+
+
+
+
+
+
+
+
+              <time datetime="2006-05-23T00:00:00+02:00" pubdate data-updated="true">May 23<span>rd</span>, 2006</time>
+
+            </p>
+
+          </header>
+
+
+          <div class="entry-content">
+            <p>Hierbij een aantal verwijzingen in willekeurige volgorde naar andere blogs met feedback over de
+              RubyEnRails 2006 dag.</p>
+
+
+            <p><a href="http://www.vandomburg.net/">Roderick van Domburg</a></p>
+
+
+            <p><a href="http://www.hollandonrails.nl/weblog/bekijk/54">Hollandonrails</a></p>
+
+
+            <p><a href="http://juice10.com/blog/articles/2006/05/18/rubyenrails-2006-finished">Juice10</a></p>
+
+
+            <p><a
+                href="http://www.rubyenrails.nl/articles/2006/05/20/ruby-en-rails-2006-achter-de-rug">RubyEnRails.nl</a>
+            </p>
+
+
+            <p><a href="http://blog.japj.net/articles/2006/05/18/rubyenrails-2006-day-a-success"><span
+                  class="caps">JAPJ</span>.blog</a></p>
+
+
+            <p><a href="http://www.blueace.nl/2006/05/ruby-en-rails-met-hoffelijke-trekjes/">BlueAce</a></p>
+
+
+            <p>En kijk, ook met dank aan BlueAce en anderen, ook naar de <a
+                href="http://www.flickr.com/photos/tags/rubyenrails/">foto&#8217;s</a> van de dag en in het bijzonder
+              naar een foto van mijn <a href="http://flickr.com/photos/blueace/148852597/">presentatie</a>. Gelukkig ook
+              vereeuwigd&#8230; :-).</p>
+
+          </div>
+
+
+
+
+        </article>
+
+        <div class="pagination">
+
+          <a class="prev" href="/blog/page/10/">&larr; Older</a>
+
+          <a href="/blog/archives">Blog Archives</a>
+
+          <a class="next" href="/blog/page/8/">Newer &rarr;</a>
+
+        </div>
+      </div>
+      <aside class="sidebar">
+
+
+        <section>
+          <h1>GitHub Repos</h1>
+          <ul id="gh_repos">
+            <li class="loading">Status updating&#8230;</li>
+          </ul>
+
+          <a href="https://github.com/dovadi">@dovadi</a> on GitHub
+
+          <script type="text/javascript">
+            $.domReady(function () {
+              if (!window.jXHR) {
+                var jxhr = document.createElement('script');
+                jxhr.type = 'text/javascript';
+                jxhr.src = '/javascripts/libs/jXHR.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(jxhr, s);
+              }
+
+              github.showRepos({
+                user: 'dovadi',
+                count: 0,
+                skip_forks: true,
+                target: '#gh_repos'
+              });
+            });
+          </script>
+          <script src="/javascripts/github.js" type="text/javascript"> </script>
+        </section>
+
+
+        <section>
+
+          <a href="http://twitter.com/dovadi" class="twitter-follow-button" data-show-count="false">Follow @dovadi</a>
+
+        </section>
+
+        <section>
+          <h1>Recent Posts</h1>
+          <ul id="recent_posts">
+
+            <li class="post">
+              <a href="/2013/10/13/electrocamp-on-texel/">Electro:Camp on Texel</a>
+            </li>
+
+            <li class="post">
+              <a href="/2010/05/25/proposal-for-a-formal-commercial-co-operative/">Proposal for a formal (commercial)
+                co-operative</a>
+            </li>
+
+            <li class="post">
+              <a href="/2010/05/22/cowork-location-on-texel/">CoWork location on Texel</a>
+            </li>
+
+            <li class="post">
+              <a href="/2010/03/23/ideal-on-rails/">Active Merchant iDEAL plugin</a>
+            </li>
+
+            <li class="post">
+              <a href="/2009/08/21/gem-released-has_attributes_from/">Gem released: has_attributes_from</a>
+            </li>
+
+          </ul>
+        </section>
+        <section>
+          <h1>&nbsp;</h1>
+          <p>
+            <img width="255px" src="/images/logo_ad.png">
+          </p>
+        </section>
+
+
+      </aside>
 
     </div>
   </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2018 - Frank Oxener -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a href="http://octopressthemes.com">Octopress Themes</a>.</span>
-</p>
+  <footer role="contentinfo">
+    <p>
+      Copyright &copy; 2021 - Frank Oxener -
+      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a
+          href="http://octopressthemes.com">Octopress Themes</a>.</span>
+    </p>
 
-</footer>
-  
+  </footer>
 
-<script type="text/javascript">
-      var disqus_shortname = 'dovadi';
-      
-        
-        var disqus_script = 'count.js';
-      
+
+  <script type="text/javascript">
+    var disqus_shortname = 'dovadi';
+
+
+    var disqus_script = 'count.js';
+
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = 'https://' + disqus_shortname + '.disqus.com/' + disqus_script;
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
-</script>
+  </script>
 
 
 
@@ -456,7 +512,7 @@ Op windows is het met Cygwin ook mogelijk om dit proces uit te voeren, ik heb he
 
 
   <script type="text/javascript">
-    (function(){
+    (function () {
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
@@ -470,4 +526,5 @@ Op windows is het met Cygwin ook mogelijk om dit proces uit te voeren, ik heb he
 
 
 </body>
+
 </html>

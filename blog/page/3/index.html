@@ -1,23 +1,26 @@
-
 <!DOCTYPE html>
 <!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
   <meta charset="utf-8">
   <title>Dovadi</title>
   <meta name="author" content="Frank Oxener">
 
-  
-  <meta name="description" content="I was asked to give an introductory workshop in Ruby on Rails for an insurance company. An intranet application was build in Ruby on Rails for this &hellip;">
-  
+
+  <meta name="description"
+    content="I was asked to give an introductory workshop in Ruby on Rails for an insurance company. An intranet application was build in Ruby on Rails for this &hellip;">
+
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
+
   <link rel="canonical" href="http://dovadi.com/blog/page/3/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -26,16 +29,18 @@
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="Dovadi" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet"
+    type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet"
+    type="text/css">
 
-  
+
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-410122-5']);
     _gaq.push(['_trackPageview']);
 
-    (function() {
+    (function () {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
@@ -45,49 +50,51 @@
 
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Dovadi</a></h1>
-  
-    <h2>None of us is as smart as all of us.</h2>
-  
-</hgroup>
+<body>
+  <header role="banner">
+    <hgroup>
+      <h1><a href="/">Dovadi</a></h1>
 
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="https://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:dovadi.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/about">About</a></li>
-</ul>
+      <h2>None of us is as smart as all of us.</h2>
 
-</nav>
+    </hgroup>
+
+  </header>
+  <nav role="navigation">
+    <ul class="subscription" data-subscription="rss">
+      <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+
+    </ul>
+
+    <form action="https://google.com/search" method="get">
+      <fieldset role="search">
+        <input type="hidden" name="q" value="site:dovadi.com" />
+        <input class="search" type="text" name="q" results="0" placeholder="Search" />
+      </fieldset>
+    </form>
+
+    <ul class="main-navigation">
+      <li><a href="/">Blog</a></li>
+      <li><a href="/blog/archives">Archives</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+
+  </nav>
   <div id="main">
     <div id="content">
       <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2008/06/01/workshop-ruby-on-rails/">Workshop Ruby on Rails and Maglev</a></h1>
-    
-    
-      <p class="meta">
-        
+
+
+
+        <article>
+
+          <header>
+
+            <h1 class="entry-title"><a href="/2008/06/01/workshop-ruby-on-rails/">Workshop Ruby on Rails and Maglev</a>
+            </h1>
+
+
+            <p class="meta">
 
 
 
@@ -96,359 +103,415 @@
 
 
 
-  
-
-
-<time datetime="2008-06-01T00:00:00+02:00" pubdate data-updated="true">Jun 1<span>st</span>, 2008</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I was asked to give an introductory workshop in <a href="http://rubyonrails.org/">Ruby on Rails</a> for an insurance company. An intranet application was build in Ruby on Rails for this company and now they want to have the knowledge to maintain the application themselves. So I organized a workshop in two sessions to touch on the basics of Ruby and Rails. And I have to say, it is not easy &#8230;. especially when this application has <a href="http://wiki.rubyonrails.org/rails/pages/UnderstandingPolymorphicAssociations">polymorphic</a> and <a href="http://wiki.rubyonrails.org/rails/pages/Beginner+Howto+on+has_many+:through">has_many :through</a> associations&#8230; :-)</p>
-
-
-<p>I myself started with Ruby on Rails in October 2005 (I had no experience with Ruby at all) and I remember it was straight forward, although it toke me a while to understand (for example) some of the magic of ActiveRecord (made possible by Ruby). But now 2,5 years later we have Rails 2.1 (since <a href="http://weblog.rubyonrails.com/2008/6/1/rails-2-1-time-zones-dirty-caching-gem-dependencies-caching-etc">yesterday</a>!) and it has a lot of new concepts and extra features and therefore I think it is a lot harder to get started. My preparation for this workshop made me realise that now it will take more time to really get acquainted with the full potential of Rails.</p>
-
-
-<p>And to be honest, working every day with Rails, it still is a challenge to keep up-to-date with the new features in Rails (which seems to be added almost &#8216;every&#8217; day) and all the new developments and innovation in the Ruby and Rails community. The day before yesterday I had never heard of <a href="http://ruby.gemstone.com/">Maglev</a> or <a href="http://code.google.com/p/mongrel-esi/">Mongrel-esi</a>&#8230;..</p>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2008/05/09/global-include-for-nginx-with-a-wildcard/">Global Include for Nginx With a Wildcard.</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
 
+              <time datetime="2008-06-01T00:00:00+02:00" pubdate data-updated="true">Jun 1<span>st</span>, 2008</time>
+
+            </p>
+
+          </header>
+
+
+          <div class="entry-content">
+            <p>I was asked to give an introductory workshop in <a href="http://rubyonrails.org/">Ruby on Rails</a> for
+              an insurance company. An intranet application was build in Ruby on Rails for this company and now they
+              want to have the knowledge to maintain the application themselves. So I organized a workshop in two
+              sessions to touch on the basics of Ruby and Rails. And I have to say, it is not easy &#8230;. especially
+              when this application has <a
+                href="http://wiki.rubyonrails.org/rails/pages/UnderstandingPolymorphicAssociations">polymorphic</a> and
+              <a href="http://wiki.rubyonrails.org/rails/pages/Beginner+Howto+on+has_many+:through">has_many
+                :through</a> associations&#8230; :-)</p>
+
+
+            <p>I myself started with Ruby on Rails in October 2005 (I had no experience with Ruby at all) and I remember
+              it was straight forward, although it toke me a while to understand (for example) some of the magic of
+              ActiveRecord (made possible by Ruby). But now 2,5 years later we have Rails 2.1 (since <a
+                href="http://weblog.rubyonrails.com/2008/6/1/rails-2-1-time-zones-dirty-caching-gem-dependencies-caching-etc">yesterday</a>!)
+              and it has a lot of new concepts and extra features and therefore I think it is a lot harder to get
+              started. My preparation for this workshop made me realise that now it will take more time to really get
+              acquainted with the full potential of Rails.</p>
+
+
+            <p>And to be honest, working every day with Rails, it still is a challenge to keep up-to-date with the new
+              features in Rails (which seems to be added almost &#8216;every&#8217; day) and all the new developments
+              and innovation in the Ruby and Rails community. The day before yesterday I had never heard of <a
+                href="http://ruby.gemstone.com/">Maglev</a> or <a
+                href="http://code.google.com/p/mongrel-esi/">Mongrel-esi</a>&#8230;..</p>
+
+          </div>
 
 
 
 
-  
+        </article>
 
 
-<time datetime="2008-05-09T00:00:00+02:00" pubdate data-updated="true">May 9<span>th</span>, 2008</time>
-        
-      </p>
-    
-  </header>
+        <article>
+
+          <header>
+
+            <h1 class="entry-title"><a href="/2008/05/09/global-include-for-nginx-with-a-wildcard/">Global Include for
+                Nginx With a Wildcard.</a></h1>
 
 
-  <div class="entry-content"><p>We use <a href="http://wiki.codemongers.com/Main">Nginx</a> as our webserver and loadbalancer with several different rails applications and we&#8217;re very satisfied with it. I thought let&#8217;s share the way we set up de nginx config file, because so far I haven&#8217;t read it elsewere.</p>
+            <p class="meta">
 
 
-<p>In the global config file of nginx we use includes with wildcards, for example:</p>
 
 
-<pre><code>
+
+
+
+
+
+
+
+
+              <time datetime="2008-05-09T00:00:00+02:00" pubdate data-updated="true">May 9<span>th</span>, 2008</time>
+
+            </p>
+
+          </header>
+
+
+          <div class="entry-content">
+            <p>We use <a href="http://wiki.codemongers.com/Main">Nginx</a> as our webserver and loadbalancer with
+              several different rails applications and we&#8217;re very satisfied with it. I thought let&#8217;s share
+              the way we set up de nginx config file, because so far I haven&#8217;t read it elsewere.</p>
+
+
+            <p>In the global config file of nginx we use includes with wildcards, for example:</p>
+
+
+            <pre><code>
     include /u/apps/*/current/config/nginx.conf;
     include /u/apps/*/config/nginx.conf;
 </code></pre>
 
 
-<p>So now we only have to take care of the individual settings of an rails application for configuring its virtual domain(s), rewrite rules and etcetera in its own &#8216;local&#8217; nginx.conf file in the rails/config directory (which is of course under version control).</p>
+            <p>So now we only have to take care of the individual settings of an rails application for configuring its
+              virtual domain(s), rewrite rules and etcetera in its own &#8216;local&#8217; nginx.conf file in the
+              rails/config directory (which is of course under version control).</p>
 
 
-<p>When you want to start a new application after deployment, first test the configuration settings of nginx as follows:</p>
+            <p>When you want to start a new application after deployment, first test the configuration settings of nginx
+              as follows:</p>
 
 
-<pre><code>
+            <pre><code>
   cd /usr/local/nginx
   sudo ./sbin/nginx -t
 </code></pre>
 
 
-<p>If everything is ok, you get something like this:</p>
+            <p>If everything is ok, you get something like this:</p>
 
 
-<pre><code>
+            <pre><code>
 2008/05/09 17:06:10 [info] 19177#0: the configuration file /usr/local/nginx/conf/nginx.conf syntax is ok
 2008/05/09 17:06:10 [info] 19177#0: the configuration file /usr/local/nginx/conf/nginx.conf was tested successfully
 </code></pre>
 
 
-<p>Restart Nginx (all the local config files will be included as well), start your application and you&#8217;re done.</p>
+            <p>Restart Nginx (all the local config files will be included as well), start your application and
+              you&#8217;re done.</p>
 
 
-<pre><code>
+            <pre><code>
   sudo /etc/init.d/nginx restart
 </code></pre>
 
 
-<p>Very practical!</p>
+            <p>Very practical!</p>
 
 
-<p><em>(Credits to my collegue Matthijs Kadijk.)</em></p>
+            <p><em>(Credits to my collegue Matthijs Kadijk.)</em></p>
 
-</div>
-  
-  
+          </div>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2008/04/11/please-add-ruby/">Please Add Ruby &#8230;.</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
+        </article>
 
 
+        <article>
 
+          <header>
 
+            <h1 class="entry-title"><a href="/2008/04/11/please-add-ruby/">Please Add Ruby &#8230;.</a></h1>
 
 
-  
+            <p class="meta">
 
 
-<time datetime="2008-04-11T00:00:00+02:00" pubdate data-updated="true">Apr 11<span>th</span>, 2008</time>
-        
-      </p>
-    
-  </header>
 
 
-  <div class="entry-content"><p>Google recently did a beta launch announcement for their application hosting service called <a href="http://code.google.com/appengine/docs/whatisgoogleappengine.html">App Engine</a>.</p>
 
 
-<p>Currently it only supports <a href="http://www.python.org/">Python</a>. So following <a href="http://drnicwilliams.com/">Dr Nic&#8217;s</a> advise, I starred &#8220;Add <a href="http://www.ruby-lang.org/en/">Ruby</a> support&#8221; because its fun!</p>
 
 
-<p><img width="480" src="/assets/2008/4/11/add_ruby_support.png"/></p>
 
 
-<p>So go ahead and do the same at <a href="http://code.google.com/p/googleappengine/issues/list">code.google.com</a> !</p>
 
-</div>
-  
-  
 
+              <time datetime="2008-04-11T00:00:00+02:00" pubdate data-updated="true">Apr 11<span>th</span>, 2008</time>
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2008/03/20/great-day/">A Great Day&#8230;.</a></h1>
-    
-    
-      <p class="meta">
-        
+            </p>
 
+          </header>
 
 
+          <div class="entry-content">
+            <p>Google recently did a beta launch announcement for their application hosting service called <a
+                href="http://code.google.com/appengine/docs/whatisgoogleappengine.html">App Engine</a>.</p>
 
 
+            <p>Currently it only supports <a href="http://www.python.org/">Python</a>. So following <a
+                href="http://drnicwilliams.com/">Dr Nic&#8217;s</a> advise, I starred &#8220;Add <a
+                href="http://www.ruby-lang.org/en/">Ruby</a> support&#8221; because its fun!</p>
 
 
+            <p><img width="480" src="/assets/2008/4/11/add_ruby_support.png" /></p>
 
-  
 
+            <p>So go ahead and do the same at <a
+                href="http://code.google.com/p/googleappengine/issues/list">code.google.com</a> !</p>
 
-<time datetime="2008-03-20T00:00:00+01:00" pubdate data-updated="true">Mar 20<span>th</span>, 2008</time>
-        
-      </p>
-    
-  </header>
+          </div>
 
 
-  <div class="entry-content"><p>Yesterday, we had a great day on our Entrepreneurs conference here on the island of <a href="http://maps.google.nl/maps?f=q&amp;hl=nl&amp;geocode=&amp;q=texel&amp;ie=UTF8&amp;ll=53.085364,4.781113&amp;spn=0.218581,0.628967&amp;t=h&amp;z=11">Texel</a>.</p>
 
 
-<p style="text-align:center;"><img src="/assets/2008/3/20/fablab_texel_beurs_19_maart.JPG" alt="" /></p>
+        </article>
 
 
-<p>We gave a keynote presentation about the concept <a href="http://en.wikipedia.org/wiki/Fab_lab">Fablab</a>, which went very well.</p>
+        <article>
 
+          <header>
 
-<p>It was nice to have a lot of new contacts with the local community and it gave us new ideas for the next steps in establishing a FabLab on Texel.</p>
+            <h1 class="entry-title"><a href="/2008/03/20/great-day/">A Great Day&#8230;.</a></h1>
 
-</div>
-  
-  
 
+            <p class="meta">
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2008/03/14/google-sketchup-api-with-ruby/">Google Sketchup With Ruby API.</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2008-03-14T00:00:00+01:00" pubdate data-updated="true">Mar 14<span>th</span>, 2008</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Because of our involvement in the Fablab community, we&#8217;re very interested in extending the functionality of <a href="http://www.sketchup.com/">Google Sketchup</a> with the <a href="http://code.google.com/apis/sketchup/">Ruby <span class="caps">API</span></a>. We like to use Sketchup for basic 2.5D snapfit design, for example like <a href="http://ddf.mit.edu/projects/CABIN/index.html">this</a> or <a href="http://weburbanist.com/2008/01/13/more-creative-furniture-for-cramped-urban-living-20-pieces-of-ingenious-flat-pack-urban-furniture">this</a>. For the moment it is a research project to determine the possibilities of the Ruby <span class="caps">API</span>.</p>
-
-
-<p>Here&#8217;s an introduction video of SketchUp developer Mark Limber talking about some of the possible ways to extend the software with the Ruby <span class="caps">API</span>.</p>
-
-
-<center>
-<p><object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/QGvwLQQxuZs&hl=en"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/QGvwLQQxuZs&hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object></p>
-</center>
-
-
-<p>An intern for this project is very much welcome&#8230;&#8230;.</p>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-      <a class="prev" href="/blog/page/4/">&larr; Older</a>
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-    <a class="next" href="/blog/page/2/">Newer &rarr;</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/dovadi">@dovadi</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'dovadi',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-<section>
-  
-    <a href="http://twitter.com/dovadi" class="twitter-follow-button" data-show-count="false">Follow @dovadi</a>
-  
-</section>
-
-<section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/2013/10/13/electrocamp-on-texel/">Electro:Camp on Texel</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2010/05/25/proposal-for-a-formal-commercial-co-operative/">Proposal for a formal (commercial) co-operative</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2010/05/22/cowork-location-on-texel/">CoWork location on Texel</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2010/03/23/ideal-on-rails/">Active Merchant iDEAL plugin</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2009/08/21/gem-released-has_attributes_from/">Gem released: has_attributes_from</a>
-      </li>
-    
-  </ul>
-</section>
-<section>
-  <h1>&nbsp;</h1>
-  <p>
-   <img width="255px" src="/images/logo_ad.png">
-  </p>
-</section>
-
-  
-</aside>
+
+
+
+
+
+
+
+
+
+
+
+              <time datetime="2008-03-20T00:00:00+01:00" pubdate data-updated="true">Mar 20<span>th</span>, 2008</time>
+
+            </p>
+
+          </header>
+
+
+          <div class="entry-content">
+            <p>Yesterday, we had a great day on our Entrepreneurs conference here on the island of <a
+                href="http://maps.google.nl/maps?f=q&amp;hl=nl&amp;geocode=&amp;q=texel&amp;ie=UTF8&amp;ll=53.085364,4.781113&amp;spn=0.218581,0.628967&amp;t=h&amp;z=11">Texel</a>.
+            </p>
+
+
+            <p style="text-align:center;"><img src="/assets/2008/3/20/fablab_texel_beurs_19_maart.JPG" alt="" /></p>
+
+
+            <p>We gave a keynote presentation about the concept <a
+                href="http://en.wikipedia.org/wiki/Fab_lab">Fablab</a>, which went very well.</p>
+
+
+            <p>It was nice to have a lot of new contacts with the local community and it gave us new ideas for the next
+              steps in establishing a FabLab on Texel.</p>
+
+          </div>
+
+
+
+
+        </article>
+
+
+        <article>
+
+          <header>
+
+            <h1 class="entry-title"><a href="/2008/03/14/google-sketchup-api-with-ruby/">Google Sketchup With Ruby
+                API.</a></h1>
+
+
+            <p class="meta">
+
+
+
+
+
+
+
+
+
+
+
+
+              <time datetime="2008-03-14T00:00:00+01:00" pubdate data-updated="true">Mar 14<span>th</span>, 2008</time>
+
+            </p>
+
+          </header>
+
+
+          <div class="entry-content">
+            <p>Because of our involvement in the Fablab community, we&#8217;re very interested in extending the
+              functionality of <a href="http://www.sketchup.com/">Google Sketchup</a> with the <a
+                href="http://code.google.com/apis/sketchup/">Ruby <span class="caps">API</span></a>. We like to use
+              Sketchup for basic 2.5D snapfit design, for example like <a
+                href="http://ddf.mit.edu/projects/CABIN/index.html">this</a> or <a
+                href="http://weburbanist.com/2008/01/13/more-creative-furniture-for-cramped-urban-living-20-pieces-of-ingenious-flat-pack-urban-furniture">this</a>.
+              For the moment it is a research project to determine the possibilities of the Ruby <span
+                class="caps">API</span>.</p>
+
+
+            <p>Here&#8217;s an introduction video of SketchUp developer Mark Limber talking about some of the possible
+              ways to extend the software with the Ruby <span class="caps">API</span>.</p>
+
+
+            <center>
+              <p><object width="425" height="355">
+                  <param name="movie" value="http://www.youtube.com/v/QGvwLQQxuZs&hl=en">
+                  </param>
+                  <param name="wmode" value="transparent">
+                  </param><embed src="http://www.youtube.com/v/QGvwLQQxuZs&hl=en" type="application/x-shockwave-flash"
+                    wmode="transparent" width="425" height="355"></embed>
+                </object></p>
+            </center>
+
+
+            <p>An intern for this project is very much welcome&#8230;&#8230;.</p>
+
+          </div>
+
+
+
+
+        </article>
+
+        <div class="pagination">
+
+          <a class="prev" href="/blog/page/4/">&larr; Older</a>
+
+          <a href="/blog/archives">Blog Archives</a>
+
+          <a class="next" href="/blog/page/2/">Newer &rarr;</a>
+
+        </div>
+      </div>
+      <aside class="sidebar">
+
+
+        <section>
+          <h1>GitHub Repos</h1>
+          <ul id="gh_repos">
+            <li class="loading">Status updating&#8230;</li>
+          </ul>
+
+          <a href="https://github.com/dovadi">@dovadi</a> on GitHub
+
+          <script type="text/javascript">
+            $.domReady(function () {
+              if (!window.jXHR) {
+                var jxhr = document.createElement('script');
+                jxhr.type = 'text/javascript';
+                jxhr.src = '/javascripts/libs/jXHR.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(jxhr, s);
+              }
+
+              github.showRepos({
+                user: 'dovadi',
+                count: 0,
+                skip_forks: true,
+                target: '#gh_repos'
+              });
+            });
+          </script>
+          <script src="/javascripts/github.js" type="text/javascript"> </script>
+        </section>
+
+
+        <section>
+
+          <a href="http://twitter.com/dovadi" class="twitter-follow-button" data-show-count="false">Follow @dovadi</a>
+
+        </section>
+
+        <section>
+          <h1>Recent Posts</h1>
+          <ul id="recent_posts">
+
+            <li class="post">
+              <a href="/2013/10/13/electrocamp-on-texel/">Electro:Camp on Texel</a>
+            </li>
+
+            <li class="post">
+              <a href="/2010/05/25/proposal-for-a-formal-commercial-co-operative/">Proposal for a formal (commercial)
+                co-operative</a>
+            </li>
+
+            <li class="post">
+              <a href="/2010/05/22/cowork-location-on-texel/">CoWork location on Texel</a>
+            </li>
+
+            <li class="post">
+              <a href="/2010/03/23/ideal-on-rails/">Active Merchant iDEAL plugin</a>
+            </li>
+
+            <li class="post">
+              <a href="/2009/08/21/gem-released-has_attributes_from/">Gem released: has_attributes_from</a>
+            </li>
+
+          </ul>
+        </section>
+        <section>
+          <h1>&nbsp;</h1>
+          <p>
+            <img width="255px" src="/images/logo_ad.png">
+          </p>
+        </section>
+
+
+      </aside>
 
     </div>
   </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2018 - Frank Oxener -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a href="http://octopressthemes.com">Octopress Themes</a>.</span>
-</p>
+  <footer role="contentinfo">
+    <p>
+      Copyright &copy; 2021 - Frank Oxener -
+      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a
+          href="http://octopressthemes.com">Octopress Themes</a>.</span>
+    </p>
 
-</footer>
-  
+  </footer>
 
-<script type="text/javascript">
-      var disqus_shortname = 'dovadi';
-      
-        
-        var disqus_script = 'count.js';
-      
+
+  <script type="text/javascript">
+    var disqus_shortname = 'dovadi';
+
+
+    var disqus_script = 'count.js';
+
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = 'https://' + disqus_shortname + '.disqus.com/' + disqus_script;
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
-</script>
+  </script>
 
 
 
@@ -457,7 +520,7 @@
 
 
   <script type="text/javascript">
-    (function(){
+    (function () {
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
@@ -471,4 +534,5 @@
 
 
 </body>
+
 </html>
