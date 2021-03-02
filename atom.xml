@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Dovadi]]></title>
+  <link href="http://dovadi.com/atom.xml" rel="self"/>
+  <link href="http://dovadi.com/"/>
+  <updated>2018-07-06T12:14:33+02:00</updated>
+  <id>http://dovadi.com/</id>
+  <author>
+    <name><![CDATA[Frank Oxener]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Electro:Camp on Texel]]></title>
+    <link href="http://dovadi.com/2013/10/13/electrocamp-on-texel/"/>
+    <updated>2013-10-13T14:02:00+02:00</updated>
+    <id>http://dovadi.com/2013/10/13/electrocamp-on-texel</id>
+    <content type="html"><![CDATA[<p>Join us at elektro:camp(&lt;&lt;2013.11>>) on 1+2 November 2013 at the <a href="http://www.stayokay.com/en/hostel/texel">StayOkay</a> on the island <a href="http://goo.gl/q0s1YV">Texel</a> in the Netherlands!</p>
+
+<p>Elektro:Camp is a participative workshop on Smart Metering, Smart Home, Smart Grid and Smart Ideas, in a <a href="http://en.wikipedia.org/wiki/Barcamp">BarCamp</a> style. (This is the 7th meeting of the open source metering community.)</p>
+
+<p>This time it is an all in arrangement, including sleeping accommodation in a hostel. For all the details, travel information and costs see <a href="http://developer.mysmartgrid.de/doku.php?id=ec1311-coordination">ektro-camp.de</a>.</p>
+
+<p>Be there of be  ▢, so <a href="http://developer.mysmartgrid.de/doku.php?id=ec1311-signup">sign up!</a>!</p>
+
+<p style="text-align:center;"><img src="http://dovadi.com/images/elektro.camp.2013.11.final.jpg" alt="" /></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Proposal for a formal (commercial) co-operative]]></title>
+    <link href="http://dovadi.com/2010/05/25/proposal-for-a-formal-commercial-co-operative/"/>
+    <updated>2010-05-25T00:00:00+02:00</updated>
+    <id>http://dovadi.com/2010/05/25/proposal-for-a-formal-commercial-co-operative</id>
+    <content type="html"><![CDATA[<p>So you&#8217;re an independent Ruby developer with all the <em>benefits</em> you can think of.</p>
+
+<p>With a lot of <strong>freedom</strong>. You work from home, you choose your own assignments, no adjustment to a corporate culture, no managers to deal with etc.</p>
+
+<p>But what about the <strong>downsides</strong>? No feedback on your work (from which you can learn), not a lot of interaction with other programmers, not easy to consult a colleague on technical or other matters and sometimes the workload is too much or too little.</p>
+
+<p>So that leads me to the question: is there a form of working together without losing the valued benefits of an independent developer.  Somehow it must be possible to work together on a commercial basis as individual developers more or less the same way we contribute to an Open Source project.</p>
+
+<p>Living in a community (on an island) where we have a lot of benefit of existing co-operatives (for <a href="https://teso.nl/index.php?option=com_content&amp;view=article&amp;id=102&amp;Itemid=69&amp;lang=en">transport by ferry</a> and the <a href="http://texelenergie.nl/">delivery of energy</a>), I of course thought of a formal co-operative as an organization form for working as an collective.</p>
+
+<h2>Benefits:</h2>
+
+<blockquote><ul>
+<li>Acquisition as a collective.</li>
+<li>More flexible in workload. No more running or standing still. A more even distribution of the workload.</li>
+<li>Higher occupation on average.</li>
+<li>Share knowledge and practical experience.</li>
+<li>Learn by working together on the same project.</li>
+<li>More change to do what you do best (specialties).</li>
+<li>More change to make some money as a part time ruby developer.</li>
+</ul>
+</blockquote>
+
+<p>The co-op will also offer the customer more continuity. A customer will value the lower dependence on a single developer or a small company.</p>
+
+<h2>Release early, release often:</h2>
+
+<p>With this proposal I like to research the possibility of working together in a formal co-operative. Of course I don&#8217;t have all the answers (yet), but I&#8217;m hoping that we can together answer a lot of them.</p>
+
+<p>Let me know what <strong>you</strong> think. I made a first draft of a proposal on Github with the following subjects:</p>
+
+<blockquote><ul>
+<li>Definitions</li>
+<li>Objectives</li>
+<li>Rights</li>
+<li>Responsibilities</li>
+<li>Obligations</li>
+<li>Financials</li>
+<li>Board</li>
+<li>Workflow</li>
+<li>Examples</li>
+</ul>
+</blockquote>
+
+<p>I like to invite you to <strong>join this discussion</strong> and <strong>make your contribution</strong> by <a href="http://github.com/dovadi/rubycoop">forking</a> and submitting your patches!</p>
+
+<h2>See also:</h2>
+
+<ul>
+<li><a href="http://rubycoop.org">Rubycoop.org</a></li>
+<li><a href="http://github.com/dovadi/rubycoop">Github</a></li>
+<li><a href="http://twitter.com/rubycoop_org">twitter</a></li>
+<li><a href="http://groups.google.nl/group/ruby-co-op">Google group</a></li>
+<li><a href="https://dovadi.lighthouseapp.com/projects/53142-ruby-co-op/overview">Lighthouse</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CoWork location on Texel]]></title>
+    <link href="http://dovadi.com/2010/05/22/cowork-location-on-texel/"/>
+    <updated>2010-05-22T00:00:00+02:00</updated>
+    <id>http://dovadi.com/2010/05/22/cowork-location-on-texel</id>
+    <content type="html"><![CDATA[<p>Combine your work with <a href="http://www.texel.net/nl/over-texel/natuur/">nature</a> on <a href="http://www.texel.net/nl/over-texel/">Texel</a>. Balance your work and personal life! This is the change to do your regular work and to combine it with a holiday feeling.</p>
+
+
+<p>Go out for a few days or a week with your partner/husband/wife (and/or your kids). During the day you can use a work spot with Internet access and enjoy the beauty of the Island.</p>
+
+
+<p style="text-align:center;"><a href="http://maps.google.nl/maps?f=q&amp;source=s_q&amp;gl=nl&amp;hl=nl&amp;g=Texel&amp;q=achterom+4,+den+burg&amp;ie=UTF8&amp;hq=&amp;hnear=Achterom+4,+1791+Den+Burg,+Texel,+Noord-Holland&amp;ll=53.046889,4.793816&amp;spn=0.095353,0.264187&amp;t=h&amp;z=13"><img src="http://dovadi.com/assets/2010/5/22/achterom_4_google_maps.jpg" alt="" /></a></p>
+
+
+<p style="text-align:center;"><img src="http://dovadi.com/assets/2010/5/22/desk_orange_wall.jpg" alt="" /></p>
+
+
+<p style="text-align:center;"><img src="http://dovadi.com/assets/2010/5/22/desk_da_vinci.jpg" alt="" /></p>
+
+
+<p style="text-align:center;"><img src="http://dovadi.com/assets/2010/5/22/office_den_burg.jpg" alt="" /></p>
+
+
+<p>In return it would be nice to do a <a href="http://en.wikipedia.org/wiki/Pair_programming">pair programming</a> session (if you do <a href="http://www.ruby-lang.org/en/">Ruby</a> and/or <a href="http://rubyonrails.org/">Ruby on Rails</a>). Contact me via frank-at-dovadi.com or 06-49416406 if you&#8217;re interested.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Active Merchant iDEAL plugin]]></title>
+    <link href="http://dovadi.com/2010/03/23/ideal-on-rails/"/>
+    <updated>2010-03-23T00:00:00+01:00</updated>
+    <id>http://dovadi.com/2010/03/23/ideal-on-rails</id>
+    <content type="html"><![CDATA[<h1>Description:</h1>
+
+
+<p><a href="http://www.ideal.nl">iDEAL</a> payment gateway for <a href="http://www.activemerchant.org">ActiveMerchant</a>.</p>
+
+
+<h1>What is iDEAL?</h1>
+
+
+<p>iDEAL is a set of standards developed to facilitate online payments through the online banking applications that most Dutch banks provide.</p>
+
+
+<p>If a consumer already has online banking with <span class="caps">ABN</span> <span class="caps">AMRO</span>, Fortis, <span class="caps">ING</span>/Postbank, Rabobank, or <span class="caps">SNS</span> Bank, they can make payments using iDEAL in a way that they are already familiar with.</p>
+
+
+<p>See <a href="http://ideal.nl">http://ideal.nl</a> and <a href="http://idealdesk.com">http://idealdesk.com</a> for more information.</p>
+
+
+<h1>Merchant account</h1>
+
+
+<p>In order to use iDEAL you will need to get an iDEAL merchant account from your bank. Every bank offers â<cite>complete paymentâ</cite> services, which can obfuscate the right choice. The payment product that you will want to get, in order to use this gateway class, is a bare bones iDEAL account.</p>
+
+
+<ul>
+    <li><span class="caps">ING</span>/Postbank: iDEAL Advanced</li>
+    <li><span class="caps">ABN</span> <span class="caps">AMRO</span>: iDEAL Zelfbouw</li>
+    <li>Fortis: ? (Unknown)</li>
+    <li>Rabobank: Rabo iDEAL Professional. (Unverified)</li>
+    <li><span class="caps">SNS</span> Bank: <a href="http://www.snsbank.nl/zakelijk/betalingsverkeer/kan-ik-ideal-gebruiken-voor-mijn-webwinkel.html">Not yet available</a></li>
+</ul>
+
+
+<p>If you implement tests for other banks, if they require such acceptance tests, please do submit a patch or contact me directly: frank@dovadi.com.</p>
+
+
+<h1>Install active_merchant_ideal:</h1>
+
+
+<p>As a gem:</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">sudo</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">active_merchant_ideal</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Add the following to your environment.rb:</p>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">config</span><span class="o">.</span><span class="n">gem</span> <span class="s1">&#39;active_merchant_ideal&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<p>As a plugin:<br />
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">.</span><span class="n">/script</span><span class="o">/</span><span class="n">plugin</span> <span class="n">install</span> <span class="ss">git</span><span class="p">:</span><span class="sr">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">dovadi</span><span class="o">/</span><span class="n">active_merchant_ideal</span><span class="o">.</span><span class="n">git</span><span class="o">&lt;</span><span class="n">br</span> <span class="sr">/&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+<h1>Generate private keys and certificates</h1>
+<p>Messages to, and from, the acquirer, are all signed in order to prove their authenticity. This means that you will have to have a certificate to sign your messages going to the acquirer <em>and</em> you will need to have the certificate of the acquirer to verify its signed messages.</p>
+<p>The latter can be downloaded from your acquirer after registration. The former, however, can be a certificate signed by a CA authority or a self-signed certificate.</p>
+<p>To create a self-signed certificate follow these steps:</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="sr">/usr/</span><span class="n">bin</span><span class="o">/</span><span class="n">openssl</span> <span class="n">genrsa</span> <span class="o">-</span><span class="n">des3</span> <span class="o">-</span><span class="n">out</span> <span class="n">private_key</span><span class="o">.</span><span class="n">pem</span> <span class="o">-</span><span class="n">passout</span> <span class="ss">pass</span><span class="p">:</span><span class="n">the_passphrase</span> <span class="mi">1024</span>
+</span><span class='line'><span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">openssl</span> <span class="n">req</span> <span class="o">-</span><span class="n">x509</span> <span class="o">-</span><span class="kp">new</span> <span class="o">-</span><span class="n">key</span> <span class="n">private_key</span><span class="o">.</span><span class="n">pem</span> <span class="o">-</span><span class="n">passin</span> <span class="ss">pass</span><span class="p">:</span><span class="n">the_passphrase</span> <span class="o">-</span><span class="n">days</span> <span class="mi">3650</span> <span class="o">-</span><span class="n">out</span> <span class="n">private_certificate</span><span class="o">.</span><span class="n">cer</span>
+</span></code></pre></td></tr></table></div></figure>`
+<p>Substitute _the_passphrase__ with your own passphrase.</p>
+<p>With the <span class="caps">ING</span> bank you upload your private certificate with your iDEAL Dashboard. Be aware that there are two dashboards, one <a href="https://idealtest.secure-ing.com/ideal/logon_ing.do">dashboard</a> for the test environment and one <a href="https://ideal.secure-ing.com/ideal/logon_ing.do">dashboard</a> for the production environment!</p>
+<p>For more information see:</p>
+<ul>
+    <li><a href="http://en.wikipedia.org/wiki/Certificate_authority">http://en.wikipedia.org/wiki/Certificate_authority</a></li>
+    <li><a href="http://en.wikipedia.org/wiki/Self-signed_certificate">http://en.wikipedia.org/wiki/Self-signed_certificate</a></li>
+</ul>
+<h1>Test</h1>
+<h2>Test the gem</h2>
+<p>You can run the tests from this gem with (inside the active_merchant_ideal directory):</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">rake</span> <span class="nb">test</span>
+</span></code></pre></td></tr></table></div></figure>
+<h2>Run the remote tests</h2>
+<ul>
+    <li>Create .active_merchant directory in your own home directory</li>
+    <li>Copy test/fixtures.yml to the .active_merchant directory</li>
+    <li>Fill in your own merchant id, passphrase and the correct locations to your private key and certificates.</li>
+    <li>For running the <strong>seven prescribed remote test transactions</strong> (<span class="caps">ING</span> bank) which are needed to activate the iDEAL account use</li>
+</ul>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">rake</span> <span class="nb">test</span><span class="ss">:remote</span>
+</span></code></pre></td></tr></table></div></figure>
+<h1>Example (Rails)</h1>
+<h2>First configure the gateway</h2>
+<p>Put the following code in, for instance, an initializer:</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="no">IdealGateway</span><span class="o">.</span><span class="n">live_url</span> <span class="o">=</span> <span class="s1">&#39;https://ideal.secure-ing.com:443/ideal/iDeal&#39;</span>
+</span><span class='line'><span class="no">IdealGateway</span><span class="o">.</span><span class="n">merchant_id</span> <span class="o">=</span> <span class="s1">&#39;00123456789&#39;</span>
+</span><span class='line'><span class="no">IdealGateway</span><span class="o">.</span><span class="n">passphrase</span> <span class="o">=</span> <span class="s1">&#39;the_private_key_passphrase&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># CERTIFICATE_ROOT points to a directory where the key and certificates are located</span>
+</span><span class='line'><span class="no">IdealGateway</span><span class="o">.</span><span class="n">private_key_file</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">CERTIFICATE_ROOT</span><span class="p">,</span> <span class="s1">&#39;private_key.pem&#39;</span><span class="p">)</span>
+</span><span class='line'><span class="no">IdealGateway</span><span class="o">.</span><span class="n">private_certificate_file</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">CERTIFICATE_ROOT</span><span class="p">,</span> <span class="s1">&#39;private_certificate.cer&#39;</span><span class="p">)</span>
+</span><span class='line'><span class="no">IdealGateway</span><span class="o">.</span><span class="n">ideal_certificate_file</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">CERTIFICATE_ROOT</span><span class="p">,</span> <span class="s1">&#39;ideal.cer&#39;</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+<h2>View</h2>
+<p>Give the consumer a list of available issuer options:</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">gateway</span> <span class="o">=</span> <span class="ss">ActiveMerchant</span><span class="p">:</span><span class="ss">:Billing</span><span class="o">::</span><span class="no">IdealGateway</span><span class="o">.</span><span class="n">new</span>
+</span><span class='line'><span class="n">issuers</span> <span class="o">=</span> <span class="n">gateway</span><span class="o">.</span><span class="n">issuers</span><span class="o">.</span><span class="n">list</span>
+</span><span class='line'><span class="n">sorted_issuers</span> <span class="o">=</span> <span class="n">issuers</span><span class="o">.</span><span class="n">sort_by</span> <span class="p">{</span> <span class="o">|</span><span class="n">issuer</span><span class="o">|</span> <span class="n">issuer</span><span class="o">[</span><span class="ss">:name</span><span class="o">]</span> <span class="p">}</span>
+</span><span class='line'><span class="nb">select</span><span class="p">(</span><span class="s1">&#39;purchase&#39;</span><span class="p">,</span> <span class="s1">&#39;issuer_id&#39;</span><span class="p">,</span> <span class="n">issuers</span><span class="o">.</span><span class="n">map</span> <span class="p">{</span> <span class="o">|</span><span class="n">issuer</span><span class="o">|</span> <span class="o">[</span><span class="n">issuer</span><span class="o">[</span><span class="ss">:name</span><span class="o">]</span><span class="p">,</span> <span class="n">issuer</span><span class="o">[</span><span class="ss">:id</span><span class="o">]]</span> <span class="p">})</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>Could become:</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="nb">select</span> <span class="nb">name</span><span class="o">=</span><span class="s2">&quot;purchase[issuer_id]&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>  <span class="o">&lt;</span><span class="n">option</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;1006&quot;</span> <span class="n">selected</span><span class="o">=</span><span class="s2">&quot;selected&quot;</span><span class="o">&gt;</span><span class="no">ABN</span> <span class="no">AMRO</span> <span class="no">Bank</span><span class="o">&lt;</span><span class="sr">/option&gt;</span>
+</span><span class='line'><span class="sr">  &lt;option value=&quot;1017&quot;&gt;Asr bank&lt;/o</span><span class="n">ption</span><span class="o">&gt;</span>
+</span><span class='line'>  <span class="o">&lt;</span><span class="n">option</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;1003&quot;</span><span class="o">&gt;</span><span class="no">Postbank</span><span class="o">&lt;</span><span class="sr">/option&gt;</span>
+</span><span class='line'><span class="sr">  &lt;option value=&quot;1005&quot;&gt;Rabobank&lt;/o</span><span class="n">ption</span><span class="o">&gt;</span>
+</span><span class='line'>  <span class="o">&lt;</span><span class="n">option</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;1023&quot;</span><span class="o">&gt;</span><span class="no">Van</span> <span class="no">Lanschot</span><span class="o">&lt;</span><span class="sr">/option&gt;</span>
+</span><span class='line'><span class="sr">&lt;/se</span><span class="n">lect</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+<h2>Controller</h2>
+<p>First you&#8217;ll need to setup a transaction and redirect the consumer there so she can make the payment:</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'> <span class="k">class</span> <span class="nc">PurchasesController</span> <span class="o">&lt;</span> <span class="ss">ActionController</span><span class="p">:</span><span class="ss">:Base</span>
+</span><span class='line'>   <span class="k">def</span> <span class="nf">create</span>
+</span><span class='line'>     <span class="c1"># â?¬10.00 in cents.</span>
+</span><span class='line'>     <span class="n">purchase</span> <span class="o">=</span> <span class="vi">@user</span><span class="o">.</span><span class="n">purchases</span><span class="o">.</span><span class="n">build</span><span class="p">(</span><span class="ss">:price</span> <span class="o">=&gt;</span> <span class="mi">1000</span><span class="p">)</span>
+</span><span class='line'>     <span class="c1"># We want an id for the URL.</span>
+</span><span class='line'>     <span class="n">purchase</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="kp">false</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>     <span class="n">purchase_options</span> <span class="o">=</span> <span class="p">{</span>
+</span><span class='line'>       <span class="ss">:issuer_id</span> <span class="o">=&gt;</span> <span class="n">params</span><span class="o">[</span><span class="ss">:purchase</span><span class="o">][</span><span class="ss">:issuer_id</span><span class="o">]</span><span class="p">,</span>
+</span><span class='line'>       <span class="ss">:order_id</span> <span class="o">=&gt;</span> <span class="n">purchase</span><span class="o">.</span><span class="n">id</span><span class="p">,</span>
+</span><span class='line'>       <span class="ss">:return_url</span> <span class="o">=&gt;</span> <span class="n">purchase_url</span><span class="p">(</span><span class="n">purchase</span><span class="p">),</span>
+</span><span class='line'>       <span class="ss">:description</span> <span class="o">=&gt;</span> <span class="s1">&#39;A Dutch windmill&#39;</span>
+</span><span class='line'>     <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>     <span class="c1"># Save the purchase instance so that the consumer</span>
+</span><span class='line'>     <span class="c1"># can return to its resource url to finish the transaction.</span>
+</span><span class='line'>     <span class="n">purchase</span><span class="o">.</span><span class="n">update_attributes!</span><span class="p">(</span><span class="n">purchase_options</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>     <span class="n">gateway</span> <span class="o">=</span> <span class="ss">ActiveMerchant</span><span class="p">:</span><span class="ss">:Billing</span><span class="o">::</span><span class="no">IdealGateway</span><span class="o">.</span><span class="n">new</span>
+</span><span class='line'>     <span class="n">transaction_response</span> <span class="o">=</span> <span class="n">gateway</span><span class="o">.</span><span class="n">setup_purchase</span><span class="p">(</span><span class="n">purchase</span><span class="o">.</span><span class="n">price</span><span class="p">,</span> <span class="n">purchase_options</span><span class="p">)</span>
+</span><span class='line'>     <span class="k">if</span> <span class="n">transaction_response</span><span class="o">.</span><span class="n">success?</span>
+</span><span class='line'>
+</span><span class='line'>       <span class="c1"># Store the transaction_id that the acquirer</span>
+</span><span class='line'>       <span class="c1"># has created to identify the transaction.</span>
+</span><span class='line'>       <span class="n">purchase</span><span class="o">.</span><span class="n">update_attributes!</span><span class="p">(</span><span class="ss">:transaction_id</span> <span class="o">=&gt;</span> <span class="n">transaction_response</span><span class="o">.</span><span class="n">transaction_id</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>       <span class="c1"># Redirect the consumer to the issuerâ??s payment page.</span>
+</span><span class='line'>       <span class="n">redirect_to</span> <span class="n">transaction_response</span><span class="o">.</span><span class="n">service_url</span>
+</span><span class='line'>     <span class="k">end</span>
+</span><span class='line'>   <span class="k">end</span>
+</span><span class='line'> <span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>After the consumer is done with the payment she will be redirected to the <em>:return_url</em>. It&#8217;s now <em>your</em> responsibility as merchant to check if the payment has been made:</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'> <span class="k">class</span> <span class="nc">PurchasesController</span> <span class="o">&lt;</span> <span class="ss">ActionController</span><span class="p">:</span><span class="ss">:Base</span>
+</span><span class='line'>   <span class="k">def</span> <span class="nf">show</span>
+</span><span class='line'>     <span class="n">gateway</span> <span class="o">=</span> <span class="ss">ActiveMerchant</span><span class="p">:</span><span class="ss">:Billing</span><span class="o">::</span><span class="no">IdealGateway</span><span class="o">.</span><span class="n">new</span>
+</span><span class='line'>     <span class="n">transaction_status</span> <span class="o">=</span> <span class="n">gateway</span><span class="o">.</span><span class="n">capture</span><span class="p">(</span><span class="vi">@purchase</span><span class="o">.</span><span class="n">transaction_id</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>     <span class="k">if</span> <span class="n">transaction_status</span><span class="o">.</span><span class="n">success?</span>
+</span><span class='line'>       <span class="vi">@purchase</span><span class="o">.</span><span class="n">update_attributes!</span><span class="p">(</span><span class="ss">:paid</span> <span class="o">=&gt;</span> <span class="kp">true</span><span class="p">)</span>
+</span><span class='line'>       <span class="n">flash</span><span class="o">[</span><span class="ss">:notice</span><span class="o">]</span> <span class="o">=</span> <span class="s2">&quot;Congratulations, you are now the proud owner of a Dutch windmill!&quot;</span>
+</span><span class='line'>     <span class="k">end</span>
+</span><span class='line'>   <span class="k">end</span>
+</span><span class='line'> <span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+<h1>History</h1>
+<p>In 2006 an iDEAL payment library was written in Ruby for a web shop build in Rails for selling mobile phone credits. It was basically a translation of the <span class="caps">PHP</span> example given by the iDEAL organization (see iDEAL Advanced Integration Manual <span class="caps">PHP</span>). Is was released as the ideal-on-rails plugin.</p>
+<p>In 2007 this code was refactored as a patch for the ActiveMerchant library, this was mainly done by <a href="http://www.fngtps.com/">Fingertips</a> for a client project. This patch was never accepted due to the fact it was too different (and maybe too obscure) from the &#8216;normal&#8217; credit card gateways.</p>
+<p>In 2009 Fingertips forked the ActiveMerchant library and added an iDEAL gateway (presumable based on the first ActiveMerchant patch) to a new ideal branch.</p>
+<p>In 2010 this code was extracted and converted into a separate gem, so it can be more easily used in combination with the latest version of ActiveMerchant. This library is just an extraction, nothing more and nothing less. There are no fundamental changes between the code from the ideal branch and the code of this gem.</p>
+<h1>Maintainer</h1>
+<p>This gem is maintained by <a href="http://dovadi.com">Agile Dovadi BV</a>, contact <a href="mailto:frank@dovadi.com">Frank Oxener</a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Gem released: has_attributes_from]]></title>
+    <link href="http://dovadi.com/2009/08/21/gem-released-has_attributes_from/"/>
+    <updated>2009-08-21T00:00:00+02:00</updated>
+    <id>http://dovadi.com/2009/08/21/gem-released-has_attributes_from</id>
+    <content type="html"><![CDATA[<p>My first little gem <a href="http://github.com/dovadi/has_attributes_from/tree/master">has_attributes_from</a> for merging attributes from one ActiveRecord Class to another individual <span class="caps">STI</span> subclass.</p>
+
+
+<p>So why, do we want to do that, you might ask? Well, I was working on a rails project where clients take care of the administration (planning and billing) for child daycare centres. In this project I have all kinds of people objects, like a child, a contactperson, a father, mother, caretaker etc. etc. So, the ideal casus for a Single Table Inheritance implementation. So I implemented a &#8216;classic&#8217; Person Class as follows:</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'>  <span class="n">create_table</span> <span class="ss">:people</span><span class="p">,</span> <span class="ss">:force</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="kp">true</span> <span class="k">do</span> <span class="o">|</span><span class="n">t</span><span class="o">|</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:firstname</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:lastname</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:initials</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:type</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:social_security_number</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:gender</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">datetime</span> <span class="ss">:date_of_birth</span>
+</span><span class='line'>  <span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>However, I like to add certain extra attributes  to a Child, like for example its nickname and information about its allergies. So I introduce another class which I call ChildDetail. Of course I can add these attributes to the people table as well, but in this project I had several more fields to add and some other attributes for a father., which would lead to a lot of columns for only two subclasses (of the five in total).</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">create_table</span> <span class="ss">:child_details</span><span class="p">,</span> <span class="ss">:force</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="kp">true</span> <span class="k">do</span> <span class="o">|</span><span class="n">t</span><span class="o">|</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:nickname</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:vaccination</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:allergy</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">integer</span>  <span class="ss">:child_id</span> <span class="c1">#belongs_to relationship with Child</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Ok, now I can access the extra attributes</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Person</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'><span class="k">class</span> <span class="nc">Child</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="no">Person</span>
+</span><span class='line'>  <span class="n">has_one</span> <span class="ss">:child_detail</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'><span class="k">class</span> <span class="nc">ChildDetail</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+</span><span class='line'>  <span class="n">belongs_to</span> <span class="ss">:child</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">child</span> <span class="o">=</span> <span class="no">Child</span><span class="o">.</span><span class="n">first</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="c1">#&amp;lt;Child id: 2, firstname: &quot;William&quot;, lastname: &quot;Oxener&quot;, type: &quot;Child&quot;, social_security_number: &quot;123456789&quot;, gender: &quot;m&quot;, date_of_birth: &quot;2005-12-02 00:00:00&quot;&amp;gt;</span>
+</span><span class='line'><span class="nb">puts</span> <span class="n">child</span><span class="o">.</span><span class="n">child_detail</span><span class="o">.</span><span class="n">nickname</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="s2">&quot;Bill&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This is not really the way I want it, I like to ask directly for the nickname of a child without going through a child_detail. So to solve this &#8216;problem&#8217; I wrote the has_attributes_from gem. Add the following line to your environment.rb file</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">config</span><span class="o">.</span><span class="n">gem</span> <span class="s1">&#39;dovadi-has_attributes_from&#39;</span><span class="p">,</span> <span class="ss">:lib</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="s1">&#39;has_attributes_from&#39;</span><span class="p">,</span> <span class="ss">:version</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="s1">&#39;&amp;gt;=0.1.1&#39;</span><span class="p">,</span> <span class="ss">:source</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="s1">&#39;http://gems.github.com&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Install and unpack this gem to your vendor directory or install as a plugin<br />
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">.</span><span class="n">/script</span><span class="o">/</span><span class="n">plugin</span> <span class="n">install</span> <span class="ss">git</span><span class="p">:</span><span class="sr">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">dovadi</span><span class="o">/</span><span class="n">has_attributes_from</span><span class="o">.</span><span class="n">git</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+
+<p>Now we can do the following:</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Person</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'><span class="k">class</span> <span class="nc">Child</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="no">Person</span>
+</span><span class='line'>  <span class="n">has_attributes_from</span> <span class="ss">:child_detail</span>
+</span><span class='line'>  <span class="n">validates_presence_of</span> <span class="ss">:nickname</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'><span class="k">class</span> <span class="nc">ChildDetail</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>With <a href="http://github.com/dovadi/has_attributes_from/tree/master">has_attributes_from</a> the attributes from ChidDetail are merged with Child. A child object acts as one single object and I can even do validation on nickname directly (or the other attributes from ChildDetail).</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">child</span> <span class="o">=</span> <span class="no">Child</span><span class="o">.</span><span class="n">first</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="c1">#&amp;lt;Child id: 2, firstname: &quot;William&quot;, lastname: &quot;Oxener&quot;, type: &quot;Child&quot;, social_security_number: &quot;123456789&quot;, gender: &quot;m&quot;, date_of_birth: &quot;2005-12-02 00:00:00&quot;&amp;gt;</span>
+</span><span class='line'><span class="nb">puts</span> <span class="n">child</span><span class="o">.</span><span class="n">nickname</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="s2">&quot;Bill&quot;</span>
+</span><span class='line'><span class="n">child</span><span class="o">.</span><span class="n">update_attributes</span><span class="p">(</span><span class="ss">:nickname</span><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="kp">nil</span><span class="p">)</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="kp">false</span>
+</span><span class='line'><span class="n">child</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">full_messages</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="o">[</span><span class="s2">&quot;Nickname must be present&quot;</span><span class="o">]</span>
+</span><span class='line'><span class="n">child</span><span class="o">.</span><span class="n">nickname</span><span class="o">=</span><span class="s2">&quot;Daam&quot;</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="s2">&quot;Daam&quot;</span>
+</span><span class='line'><span class="n">child</span><span class="o">.</span><span class="n">save</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="kp">true</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I think this is much nicer, besides it was fun to make and a good exercise to put some Ruby meta programming into practice.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Short update: Studio Didacto]]></title>
+    <link href="http://dovadi.com/2009/06/29/short-update-studio-didacto/"/>
+    <updated>2009-06-29T00:00:00+02:00</updated>
+    <id>http://dovadi.com/2009/06/29/short-update-studio-didacto</id>
+    <content type="html"><![CDATA[<p>A short update on my preparations for the so called <strong style="color:#b11b21;">Off The Beaten Track Fablab</strong>. Although I need more time to work the details out, the idea is to go back to an older (!) and proven concept of me, which I called <strong style="color:#11863b;">Studio Didacto</strong> and started when I was employed by Atos Origin.</p>
+
+
+<p style="text-align:center;"><img src="http://dovadi.com/assets/2009/6/29/studio_didacto_1.jpg" alt="" /></p>
+
+
+<p>The core of Studio Didacto is to create (a) space and time for learning and experimenting with new technologies, but in the context of an assignment or a challenge from a real customer. With my former employer <strong style="color:#11863b;">Studio Didcato</strong> was especially meant for people in between two assignments. Now the idea is to use the same concept for interns or trainees with the starting point (or constraint) of <strong style="color:#11863b;">sustainable</strong> software development with <a href="http://www.ruby-lang.org/en/">Ruby</a>.</p>
+
+
+<p>So I&#8217;m planning to introduce a new service called (again) <strong style="color:#11863b;">Studio Didacto</strong> which is meant for customers to help in prototyping, the first iterations of a software project and/or a transition to <a href="http://www.ruby-lang.org/en/">Ruby</a>. <br />
+At the same time <strong style="color:#11863b;">Studio Didacto</strong> will <strong>also</strong> partly sponsor one likewise project but in the context of a Fablab. Such a project will be staffed by interns (and/or other volunteers), but will have a broader scope then only software development and (given the local (and of course global) challenges) will need to contribute to a more <strong style="color:#11863b;">sustainable</strong> live style. Finally a project in this <strong style="color:#11863b;">Studio Didacto</strong>/<strong style="color:#b11b21;">Off The Beaten Track Fablab</strong> will always be Open Source (off course)!</p>
+
+
+<p>I think it will not be easy to get this off the ground, but I feel it has a lot of potential and for me most of my beliefs, ideals and qualities come together in a beautiful way &#8230;&#8230;.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Clear economic value....]]></title>
+    <link href="http://dovadi.com/2009/06/10/clear-economic-value/"/>
+    <updated>2009-06-10T00:00:00+02:00</updated>
+    <id>http://dovadi.com/2009/06/10/clear-economic-value</id>
+    <content type="html"><![CDATA[<p>For those who are interested in my efforts to establish a <a href="http://fablabtexel.nl">FabLab</a> on the island <a href="http://maps.google.nl/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=texel&amp;sll=52.964757,4.776843&amp;sspn=0.007108,0.019033&amp;ie=UTF8&amp;ll=53.077056,4.831893&amp;spn=0.226872,0.609055&amp;t=h&amp;z=11">Texel</a> I like to point to another <a href="http://fablabtexel.nl/2009/6/10/economische-waarde">Dutch post on the FabLab blog</a>.</p>
+
+
+<p style="text-align:center;"><img src="http://dovadi.com/assets/2009/6/10/logo_texel.png" alt="" /></p>
+
+
+<p>Stay tuned, because I started preparations for an <strong>Off The Beaten Track FabLab</strong>!</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Almost a year, some observations.]]></title>
+    <link href="http://dovadi.com/2009/06/08/some-observations/"/>
+    <updated>2009-06-08T00:00:00+02:00</updated>
+    <id>http://dovadi.com/2009/06/08/some-observations</id>
+    <content type="html"><![CDATA[<p>Some observations and reflections:</p>
+
+
+<ul>
+    <li>No Dutch <a href="http://2009.rubyenrails.nl/">Ruby and Rails conference</a> this year. Maybe we need something different like a <a href="http://railscamp08.org/">RailsCamp</a>.</li>
+    <li>The last four projects I took on were all existing legacy Rails applications with big technical problems.</li>
+    <li>A lot of innovation last year with <a href="http://www.modrails.com/">Passenger</a> and within <a href="http://github.com/rails">Rails</a> itself,  but <a href="http://git-scm.com/">Git</a> and <a href="http://cukes.info/">Cucumber</a> really increased &#8216;happiness&#8217; in my work.</li>
+    <li>Losing clients is hard, even if the main issue is &#8216;just&#8217; money, but you have to draw a line at some point.</li>
+    <li>Winning clients is not easy, some of the proposed contracts and <a href="http://en.wikipedia.org/wiki/Non-disclosure_agreement">NDA&#8217;s</a> I&#8217;ve seen were plain silly, but again you have to draw a line &#8230;.</li>
+    <li>I think I must be twice as old as the average age of Ruby On Rails developers.</li>
+    <li>I&#8217;m considering using <a href="http://couchdb.apache.org/">CouchDB</a> for my last project.</li>
+    <li>My work in the <a href="http://www.fablab.nl/">FabLab</a> communtiy has been minimal last year, but that will change!</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Projects]]></title>
+    <link href="http://dovadi.com/2009/02/26/projects/"/>
+    <updated>2009-02-26T00:00:00+01:00</updated>
+    <id>http://dovadi.com/2009/02/26/projects</id>
+    <content type="html"><![CDATA[<h1>Beloofdisbeloofd.nl</h1>
+
+
+<center><a href="http://www.beloofdisbeloofd.nl" class="img"><img src="http://dovadi.com/assets/2008/2/26/bib_500_375.jpg" class="portfolio" alt="" /></a></center>
+
+
+<p><br/>
+With BeloofdisBeloofd (dutch for promises-promises) we created a collective conscience. Every visitor can tell what he or she thinks of a promise made by a politician. With this site we anticipated on the coming national elections on the 22th of November 2007 in the Netherlands. Everybody can post a promise to remind a &#8216;promisor&#8217; (which can also be a <span class="caps">CEO</span>, sportsman, coach, friend, family member or even yourself).</p>
+
+
+<p><br/></p>
+
+
+<h1>Continumeting</h1>
+
+
+<center><a href="http://www.continumeting.nl" class="img"><img src="http://dovadi.com/assets/2008/2/26/continumeting_500_375.jpg" class="portfolio" alt="" /></a></center>
+
+
+<p><br/>
+An email monitor for all regional call centres (seventeen) of a large government agency. The application has server side filtering and report generation to make central marketing research possible.</p>
+
+
+<p><br/></p>
+
+
+<h1>Mobcast</h1>
+
+
+<center><img src="http://dovadi.com/assets/2008/2/26/mobcast_500_375.jpg" class="portfolio" alt="" /></center>
+
+
+<p><br/>
+Internet application for &#8220;mobile casting on demand&#8221; through a sms-gateway.</p>
+
+
+<p><br/></p>
+
+
+<h1>Scottie</h1>
+
+
+<center><a href="http://waag.org/project/scottie" class="img"><img src="http://dovadi.com/assets/2008/2/26/scottie_500_375.jpg" class="portfolio" alt="" /></a></center>
+
+
+<p><br/>
+The project named Scottie researches the possibilities of using information and communication technology to create virtual immediacy between long-stay absentees and their primary social contact group. Agile Dovadi build the communication software, a Ruby based daemon for Arduino micro-controller board and a restfull web application for data acquisition.</p>
+
+
+<p><br/></p>
+
+
+<h1>iDEAL payment gateway</h1>
+
+
+<center><a href="http://github.com/dovadi/active_merchant_ideal" class="img"> <img src="http://dovadi.com/assets/2008/9/18/logo_AD_ideal.jpg" class="portfolio" alt="" /></a></center>
+
+
+<p><br/>
+The Dutch iDEAL payment gateway which is <a href="http://github.com/dovadi/active_merchant_ideal">open sourced</a>.</p>
+
+
+<p><br/></p>
+
+
+<h1>Hyves integration</h1>
+
+
+<center><a href="http://www.bemba.com" class="img"> <img src="http://dovadi.com/assets/2008/2/26/bemba_500_375.jpg" class="portfolio" alt="" /></a></center>
+
+
+<p><br/>
+A Hyves integration for Bemba.com for creating gadgets using the OAuth protocol.</p>
+
+
+<p><br/></p>
+
+
+<h1>Fablab</h1>
+
+
+<center><a href="http://www.fablab.nl" class="img"> <img src="http://dovadi.com/assets/2008/2/26/fablab_forum_500_375.jpg" class="portfolio" alt="" /></a></center>
+
+
+<p><br/>
+Agile Dovadi is an active sponsor by delivering, hosting and maintaining several internet application (blogs, wiki and forum) for the Dutch Fablab community.</p>
+
+
+<p><br/></p>
+
+
+<h1>Autoalbum</h1>
+
+
+<center><a href="http://www.autoalbum.nl" class="img"> <img src="http://dovadi.com/assets/2008/9/18/autoalbum.png" class="portfolio" alt="" /></a></center>
+
+
+<p><br/>
+A social network for car owners sharing all their wonderfull pictures.</p>
+
+
+<p><br/></p>
+
+
+<h1>Kdvnet.nl</h1>
+
+
+<center><a href="http://kdvnet.nl" class="img"> <img src="http://dovadi.com/assets/2010/5/22/kdvnet_werkrooster.jpg" class="portfolio" alt="" /></a></center>
+
+
+<p><br/>
+Planning and invoicing for child day care centers.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Obie Fernandez: The Worst Rails Code You've Ever Seen!]]></title>
+    <link href="http://dovadi.com/2008/06/15/obie-fernandez-the-worst-code-you-have-ever-seen/"/>
+    <updated>2008-06-15T00:00:00+02:00</updated>
+    <id>http://dovadi.com/2008/06/15/obie-fernandez-the-worst-code-you-have-ever-seen</id>
+    <content type="html"><![CDATA[<div style="float:right">
+<p><img src="http://dovadi.com/assets/2008/6/15/by_worst_i_dont_mean_stupid_slice.jpg" alt="" /></p>
+</div>
+
+
+<p>Last Tuesday (10th of June) <a href="http://obiefernandez.com/">Obie Fernandez</a> gave a presentation on the <a href="http://2008.rubyenrails.nl/">RubyenRails conference</a> in Amsterdam about <a href="http://obiefernandez.com/presentations/obiefernandez-worstrailscode-railsconf2008_slides.pdf">The Worst Rails Code <br />
+You&#8217;ve Ever Seen</a>.</p>
+
+
+<p>To be honest he had some really bad examples, he showed us for example an user controller of 1131 lines (of pure <span class="caps">FAIL</span>)!!</p>
+
+
+<p>But a lot of examples were more in the line of not knowing there is a better alternative in Ruby or a better alternative provided by the Rails framework.</p>
+
+
+<p>Obie came with an example like this:</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Util</span>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">hash_values_as_array</span><span class="p">(</span><span class="nb">hash</span><span class="p">)</span>
+</span><span class='line'>    <span class="n">values</span><span class="o">=[]</span>
+</span><span class='line'>    <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="k">in</span> <span class="nb">hash</span>
+</span><span class='line'>      <span class="n">values</span> <span class="o">&lt;&lt;</span> <span class="n">value</span>
+</span><span class='line'>    <span class="k">end</span>
+</span><span class='line'>    <span class="k">return</span> <span class="n">values</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><em>(Of course, you can do the same with hash.values.)</em></p>
+
+
+<p>I don&#8217;t think this is bad at all and I even think it happened to almost all of us. Most people working with Ruby On Rails were attracted by the power (and the beauty) of the Rails framework and had never worked with Ruby before (and most of the times had no or little experience with web development like myself). For a newbie it takes time to get used to and to find your way and understand the ins and outs of the language and the framework. And sometimes it is more simple or quicker to come up with your own little method like the example above. In fact, it&#8217;s a great way (or maybe the way) to learn a new language like Ruby.</p>
+
+
+<p>The main point of Obie was that you need to learn the fundamentals, read some books and pair with senior people. All true, but it takes time and it&#8217;s more difficult for someone starting this year with Rails instead of let&#8217;s say 2005.</p>
+
+
+<p>Rails is becoming a &#8216;big&#8217; framework and if you know it really well (and keep up with all the new developments) it can make you really productive. But the learning curve is becoming steeper and steeper &#8230;&#8230;.</p>
+
+
+<p>If I look at available Rails jobs, everybody seems to look for a <a href="http://jobs.rubynow.com/jobs/show/2256">rails ninja</a>, <a href="http://jobs.rubynow.com:80/jobs/show/2118">rock star</a>, <a href="http://railswork.com/jobs/224-kick-ass-ruby-programmer-for-start-up">kick ass developer</a>, <a href="http://rubynow.com/jobs/show/2187">killer rails developer</a>, <a href="http://blog.soocial.com/2008/4/10/crazy-rails-hacker">crazy rails hacker</a> or even an <a href="http://blog.soocial.com/2008/4/10/inspiring-ruby-god">inspiring Ruby god</a>. I think they are difficult to find.</p>
+
+
+<p>If you want my advise, find a place where they see your learning potential and don&#8217;t mind that you make mistakes like the ones Obie is talking about. It is all about learning by doing (and making mistakes along the way).</p>
+
+
+<p>One more thing, Obie wrote <a href="http://www.amazon.com/gp/product/0321445619?ie=UTF8&amp;tag=obiefernandez-20&amp;link_code=as3&amp;camp=211189&amp;creative=373489&amp;creativeASIN=0321445619">The Rails Way</a>, which is <span class="caps">IMHO</span> the best Rails book at this moment. At the end of his presentation Obie announced he is going to write a Rails Antipatterns book. I think this is not the right approach, please write a <strong>Rails patterns</strong> book, that is much more positive!</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Workshop Ruby on Rails and Maglev]]></title>
+    <link href="http://dovadi.com/2008/06/01/workshop-ruby-on-rails/"/>
+    <updated>2008-06-01T00:00:00+02:00</updated>
+    <id>http://dovadi.com/2008/06/01/workshop-ruby-on-rails</id>
+    <content type="html"><![CDATA[<p>I was asked to give an introductory workshop in <a href="http://rubyonrails.org/">Ruby on Rails</a> for an insurance company. An intranet application was build in Ruby on Rails for this company and now they want to have the knowledge to maintain the application themselves. So I organized a workshop in two sessions to touch on the basics of Ruby and Rails. And I have to say, it is not easy &#8230;. especially when this application has <a href="http://wiki.rubyonrails.org/rails/pages/UnderstandingPolymorphicAssociations">polymorphic</a> and <a href="http://wiki.rubyonrails.org/rails/pages/Beginner+Howto+on+has_many+:through">has_many :through</a> associations&#8230; :-)</p>
+
+
+<p>I myself started with Ruby on Rails in October 2005 (I had no experience with Ruby at all) and I remember it was straight forward, although it toke me a while to understand (for example) some of the magic of ActiveRecord (made possible by Ruby). But now 2,5 years later we have Rails 2.1 (since <a href="http://weblog.rubyonrails.com/2008/6/1/rails-2-1-time-zones-dirty-caching-gem-dependencies-caching-etc">yesterday</a>!) and it has a lot of new concepts and extra features and therefore I think it is a lot harder to get started. My preparation for this workshop made me realise that now it will take more time to really get acquainted with the full potential of Rails.</p>
+
+
+<p>And to be honest, working every day with Rails, it still is a challenge to keep up-to-date with the new features in Rails (which seems to be added almost &#8216;every&#8217; day) and all the new developments and innovation in the Ruby and Rails community. The day before yesterday I had never heard of <a href="http://ruby.gemstone.com/">Maglev</a> or <a href="http://code.google.com/p/mongrel-esi/">Mongrel-esi</a>&#8230;..</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Global include for Nginx with a wildcard.]]></title>
+    <link href="http://dovadi.com/2008/05/09/global-include-for-nginx-with-a-wildcard/"/>
+    <updated>2008-05-09T00:00:00+02:00</updated>
+    <id>http://dovadi.com/2008/05/09/global-include-for-nginx-with-a-wildcard</id>
+    <content type="html"><![CDATA[<p>We use <a href="http://wiki.codemongers.com/Main">Nginx</a> as our webserver and loadbalancer with several different rails applications and we&#8217;re very satisfied with it. I thought let&#8217;s share the way we set up de nginx config file, because so far I haven&#8217;t read it elsewere.</p>
+
+
+<p>In the global config file of nginx we use includes with wildcards, for example:</p>
+
+
+<pre><code>
+    include /u/apps/*/current/config/nginx.conf;
+    include /u/apps/*/config/nginx.conf;
+</code></pre>
+
+
+<p>So now we only have to take care of the individual settings of an rails application for configuring its virtual domain(s), rewrite rules and etcetera in its own &#8216;local&#8217; nginx.conf file in the rails/config directory (which is of course under version control).</p>
+
+
+<p>When you want to start a new application after deployment, first test the configuration settings of nginx as follows:</p>
+
+
+<pre><code>
+  cd /usr/local/nginx
+  sudo ./sbin/nginx -t
+</code></pre>
+
+
+<p>If everything is ok, you get something like this:</p>
+
+
+<pre><code>
+2008/05/09 17:06:10 [info] 19177#0: the configuration file /usr/local/nginx/conf/nginx.conf syntax is ok
+2008/05/09 17:06:10 [info] 19177#0: the configuration file /usr/local/nginx/conf/nginx.conf was tested successfully
+</code></pre>
+
+
+<p>Restart Nginx (all the local config files will be included as well), start your application and you&#8217;re done.</p>
+
+
+<pre><code>
+  sudo /etc/init.d/nginx restart
+</code></pre>
+
+
+<p>Very practical!</p>
+
+
+<p><em>(Credits to my collegue Matthijs Kadijk.)</em></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Please add ruby ....]]></title>
+    <link href="http://dovadi.com/2008/04/11/please-add-ruby/"/>
+    <updated>2008-04-11T00:00:00+02:00</updated>
+    <id>http://dovadi.com/2008/04/11/please-add-ruby</id>
+    <content type="html"><![CDATA[<p>Google recently did a beta launch announcement for their application hosting service called <a href="http://code.google.com/appengine/docs/whatisgoogleappengine.html">App Engine</a>.</p>
+
+
+<p>Currently it only supports <a href="http://www.python.org/">Python</a>. So following <a href="http://drnicwilliams.com/">Dr Nic&#8217;s</a> advise, I starred &#8220;Add <a href="http://www.ruby-lang.org/en/">Ruby</a> support&#8221; because its fun!</p>
+
+
+<p><img width="480" src="http://dovadi.com/assets/2008/4/11/add_ruby_support.png"/></p>
+
+
+<p>So go ahead and do the same at <a href="http://code.google.com/p/googleappengine/issues/list">code.google.com</a> !</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A great day....]]></title>
+    <link href="http://dovadi.com/2008/03/20/great-day/"/>
+    <updated>2008-03-20T00:00:00+01:00</updated>
+    <id>http://dovadi.com/2008/03/20/great-day</id>
+    <content type="html"><![CDATA[<p>Yesterday, we had a great day on our Entrepreneurs conference here on the island of <a href="http://maps.google.nl/maps?f=q&amp;hl=nl&amp;geocode=&amp;q=texel&amp;ie=UTF8&amp;ll=53.085364,4.781113&amp;spn=0.218581,0.628967&amp;t=h&amp;z=11">Texel</a>.</p>
+
+
+<p style="text-align:center;"><img src="http://dovadi.com/assets/2008/3/20/fablab_texel_beurs_19_maart.JPG" alt="" /></p>
+
+
+<p>We gave a keynote presentation about the concept <a href="http://en.wikipedia.org/wiki/Fab_lab">Fablab</a>, which went very well.</p>
+
+
+<p>It was nice to have a lot of new contacts with the local community and it gave us new ideas for the next steps in establishing a FabLab on Texel.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Google Sketchup with ruby API.]]></title>
+    <link href="http://dovadi.com/2008/03/14/google-sketchup-api-with-ruby/"/>
+    <updated>2008-03-14T00:00:00+01:00</updated>
+    <id>http://dovadi.com/2008/03/14/google-sketchup-api-with-ruby</id>
+    <content type="html"><![CDATA[<p>Because of our involvement in the Fablab community, we&#8217;re very interested in extending the functionality of <a href="http://www.sketchup.com/">Google Sketchup</a> with the <a href="http://code.google.com/apis/sketchup/">Ruby <span class="caps">API</span></a>. We like to use Sketchup for basic 2.5D snapfit design, for example like <a href="http://ddf.mit.edu/projects/CABIN/index.html">this</a> or <a href="http://weburbanist.com/2008/01/13/more-creative-furniture-for-cramped-urban-living-20-pieces-of-ingenious-flat-pack-urban-furniture">this</a>. For the moment it is a research project to determine the possibilities of the Ruby <span class="caps">API</span>.</p>
+
+
+<p>Here&#8217;s an introduction video of SketchUp developer Mark Limber talking about some of the possible ways to extend the software with the Ruby <span class="caps">API</span>.</p>
+
+
+<center>
+<p><object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/QGvwLQQxuZs&hl=en"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/QGvwLQQxuZs&hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object></p>
+</center>
+
+
+<p>An intern for this project is very much welcome&#8230;&#8230;.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The ampersand in Twitter4R]]></title>
+    <link href="http://dovadi.com/2008/03/03/the-ampersand-in-twitter4r/"/>
+    <updated>2008-03-03T00:00:00+01:00</updated>
+    <id>http://dovadi.com/2008/03/03/the-ampersand-in-twitter4r</id>
+    <content type="html"><![CDATA[<p>For <a href="http://www.bemba.com">Bemba.com</a> <a href="http://bembamedia.com/about-us/">we</a> use the <a href="http://twitter4r.rubyforge.org/">Twitter4R</a> gem, which works like a charm.</p>
+
+
+<p style="text-align:center;"><a href="http://www.bemba.com" class="img"><img src="http://dovadi.com/assets/2008/3/3/bemba_home.png" class="portfolio" alt="" /></a></p>
+
+
+<p style="text-align:center;"><em>sharing web pages with friends in one click on several social networks at once!</em></p>
+
+
+<p>Except we had some problems when we used the <a href="http://twitter.com/ampersands">&amp;</a> character in our messages.  It turned out that <span class="caps">URI</span>.encode was used for encoding and the text message was chopped off at the &amp; character.<br />
+<br/><br/>
+The solution was to use <span class="caps">CGI</span>::escape for encoding in <em>../twitter/lib/twitter/ext/</em><br />
+<em>stdlib.rb</em>:</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Hash</span>
+</span><span class='line'>  <span class="c1"># Returns string formatted for HTTP URL encoded name-value pairs.</span>
+</span><span class='line'>   <span class="k">def</span> <span class="nf">to_http_str</span>
+</span><span class='line'>    <span class="n">result</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+</span><span class='line'>    <span class="k">return</span> <span class="n">result</span> <span class="k">if</span> <span class="nb">self</span><span class="o">.</span><span class="n">empty?</span>
+</span><span class='line'>    <span class="nb">self</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">key</span><span class="p">,</span> <span class="n">val</span><span class="o">|</span>
+</span><span class='line'>      <span class="n">result</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">key</span><span class="si">}</span><span class="s2">=</span><span class="si">#{</span><span class="ss">CGI</span><span class="p">:</span><span class="ss">:escape</span><span class="p">(</span><span class="n">val</span><span class="o">.</span><span class="n">to_s</span><span class="p">)</span><span class="si">}</span><span class="s2">&amp;amp;&quot;</span>
+</span><span class='line'>    <span class="k">end</span>
+</span><span class='line'>    <span class="n">result</span><span class="o">.</span><span class="n">chop</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now it is just a matter of submitting a patch for the gem, but although the specifications are all nicely written with <a href="http://rspec.info/">RSpec</a>, we&#8217;re not able to run the specs.</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">no</span> <span class="n">such</span> <span class="n">file</span> <span class="n">to</span> <span class="nb">load</span> <span class="o">--</span> <span class="o">.</span><span class="n">/</span><span class="o">.</span><span class="n">.</span><span class="o">/</span><span class="n">spec_helper</span> <span class="p">(</span><span class="no">LoadError</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>What are we doing wrong here&#8230;.where is the spec helper?</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Trainees]]></title>
+    <link href="http://dovadi.com/2008/02/29/trainees/"/>
+    <updated>2008-02-29T00:00:00+01:00</updated>
+    <id>http://dovadi.com/2008/02/29/trainees</id>
+    <content type="html"><![CDATA[<h1>Trainees are very welcome!</h1>
+
+
+<p>We&#8217;re always open for your own proposals, but we offer the following assignments:</p>
+
+
+<h2>Sketchup</h2>
+
+
+<p>We want to implement a Ruby plugin for <a href="http://www.sketchup.com/">Sketchup</a> in order to make simple snapfit 2.5D designs.</p>
+
+
+<p style="text-align:center;"><img src="http://dovadi.com/assets/2008/2/29/sketchup_closet.jpg" alt="" /></p>
+
+
+<h2>Ruby Arduino Development</h2>
+
+
+<p>As a followup of our <a href="http://waag.org/project/scottie">Scottie</a> project we want to do more research with the <a href="http://rad.rubyforge.org/"><span class="caps">RAD</span></a> library. For instance, is it possible to replace the  Olimex <span class="caps">LPC</span>-H2148 microcontroller board microcontroller of the <a href="http://www.fabathome.org">fabathome</a> printer with an <br />
+<a href="http://www.arduino.cc/">Arduino</a>?</p>
+
+
+<p style="text-align:center;"><img src="http://dovadi.com/assets/2008/2/29/fah_printer.jpg" alt="" /></p>
+
+
+<h2>Contact</h2>
+
+
+<p>Please contact Frank Oxener by email frank.oxener-at-agiledovadi.com or by phone +31 (0)6 494 16 406.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Update of our website.]]></title>
+    <link href="http://dovadi.com/2008/02/28/update-of-our-website/"/>
+    <updated>2008-02-28T00:00:00+01:00</updated>
+    <id>http://dovadi.com/2008/02/28/update-of-our-website</id>
+    <content type="html"><![CDATA[<p>It was about time to do an update of our website.</p>
+
+
+<p>First, we migrated from <a href="http://www.typosphere.org/">Typo</a> to the more ligther-weight and stable <a href="http://www.mephistoblog.com/">Mephisto</a>. The migration was also the moment to use a more timeless theme (<a href="http://quotedprintable.com/pages/scribbish">Scribbish</a>) and, from now on, to post in English.</p>
+
+
+<p>It also reflects a slight change in our business focus. We&#8217;re still very much dedicated to our <a href="http://www.ruby-lang.org/en/">Ruby</a> and <a href="http://www.rubyonrails.org/">Rails</a> work, but our active involvement in the <a href="http://www.fablab.nl">Fablab</a> community has lead to a repositioning of our services.</p>
+
+
+<p>With the expertise of Ruby, Rails and agile software development and our knowledge of digital and personal fabrication, we think that we&#8217;re better suited for multidisciplinary projects on the edge of open source connected soft- and hardware.</p>
+
+
+<p>We closely follow the trends and developments in that sector and we of course share this on our blog.</p>
+
+
+<p>So stay tuned &#8230;&#8230; !!</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Kluster: a new product in 72 hours!]]></title>
+    <link href="http://dovadi.com/2008/02/28/kluster/"/>
+    <updated>2008-02-28T00:00:00+01:00</updated>
+    <id>http://dovadi.com/2008/02/28/kluster</id>
+    <content type="html"><![CDATA[<p>Crowdsourcing firm <a href="http://kluster.com">Kluster</a> officially launched yesterday at the <a href="http://www.ted.com/"><span class="caps">TED</span></a> conference with a big <a href="http://kluster.com/home/ted">challenge</a>: &#8220;<em>over the next 72 hours we will harness the collective power of <span class="caps">TED</span> attendees, and our online community to develop a totally new, tangible product.</em>&#8221;</p>
+
+
+<p><br/>
+p=. <img src="http://dovadi.com/assets/2008/2/28/kluster_72_hours_400.png" alt="" /><br />
+<br/></p>
+
+
+<p>The idea behind Kluster is that a group of passionate people working together can come up with better solutions for any decision-making problem than a single person. Whether that is planning an event, designing a new logo, or creating a new product, Kluster believes their system can work.</p>
+
+
+<p>I find it an interesting concept. Especially because Kluster also introduces it&#8217;s own currency: the watt. I think a sort of Local Exchange Trade system (<a href="http://en.wikipedia.org/wiki/Local_Exchange_Trading_Systems"><span class="caps">LETS</span></a>) as a catalyst for cooperation and innovation is promising. Is this principle a way forward for the International Fablab community?</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Test first]]></title>
+    <link href="http://dovadi.com/2008/01/15/test-first/"/>
+    <updated>2008-01-15T00:00:00+01:00</updated>
+    <id>http://dovadi.com/2008/01/15/test-first</id>
+    <content type="html"><![CDATA[<p>This is all about autoshift!</p>
+
+]]></content>
+  </entry>
+  
+</feed>

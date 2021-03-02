@@ -1,0 +1,421 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Gem released: has_attributes_from - Dovadi</title>
+  <meta name="author" content="Frank Oxener">
+
+  
+  <meta name="description" content="My first little gem has_attributes_from for merging attributes from one ActiveRecord Class to another individual STI subclass. So why, do we want to &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://dovadi.com/2009/08/21/gem-released-has_attributes_from/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Dovadi" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-410122-5']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Dovadi</a></h1>
+  
+    <h2>None of us is as smart as all of us.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:dovadi.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Gem Released: Has_attributes_from</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-08-21T00:00:00+02:00" pubdate data-updated="true">Aug 21<span>st</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>My first little gem <a href="http://github.com/dovadi/has_attributes_from/tree/master">has_attributes_from</a> for merging attributes from one ActiveRecord Class to another individual <span class="caps">STI</span> subclass.</p>
+
+
+<p>So why, do we want to do that, you might ask? Well, I was working on a rails project where clients take care of the administration (planning and billing) for child daycare centres. In this project I have all kinds of people objects, like a child, a contactperson, a father, mother, caretaker etc. etc. So, the ideal casus for a Single Table Inheritance implementation. So I implemented a &#8216;classic&#8217; Person Class as follows:</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'>  <span class="n">create_table</span> <span class="ss">:people</span><span class="p">,</span> <span class="ss">:force</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="kp">true</span> <span class="k">do</span> <span class="o">|</span><span class="n">t</span><span class="o">|</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:firstname</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:lastname</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:initials</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:type</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:social_security_number</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:gender</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">datetime</span> <span class="ss">:date_of_birth</span>
+</span><span class='line'>  <span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>However, I like to add certain extra attributes  to a Child, like for example its nickname and information about its allergies. So I introduce another class which I call ChildDetail. Of course I can add these attributes to the people table as well, but in this project I had several more fields to add and some other attributes for a father., which would lead to a lot of columns for only two subclasses (of the five in total).</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">create_table</span> <span class="ss">:child_details</span><span class="p">,</span> <span class="ss">:force</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="kp">true</span> <span class="k">do</span> <span class="o">|</span><span class="n">t</span><span class="o">|</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:nickname</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:vaccination</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:allergy</span>
+</span><span class='line'>    <span class="n">t</span><span class="o">.</span><span class="n">integer</span>  <span class="ss">:child_id</span> <span class="c1">#belongs_to relationship with Child</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Ok, now I can access the extra attributes</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Person</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'><span class="k">class</span> <span class="nc">Child</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="no">Person</span>
+</span><span class='line'>  <span class="n">has_one</span> <span class="ss">:child_detail</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'><span class="k">class</span> <span class="nc">ChildDetail</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+</span><span class='line'>  <span class="n">belongs_to</span> <span class="ss">:child</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">child</span> <span class="o">=</span> <span class="no">Child</span><span class="o">.</span><span class="n">first</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="c1">#&amp;lt;Child id: 2, firstname: &quot;William&quot;, lastname: &quot;Oxener&quot;, type: &quot;Child&quot;, social_security_number: &quot;123456789&quot;, gender: &quot;m&quot;, date_of_birth: &quot;2005-12-02 00:00:00&quot;&amp;gt;</span>
+</span><span class='line'><span class="nb">puts</span> <span class="n">child</span><span class="o">.</span><span class="n">child_detail</span><span class="o">.</span><span class="n">nickname</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="s2">&quot;Bill&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This is not really the way I want it, I like to ask directly for the nickname of a child without going through a child_detail. So to solve this &#8216;problem&#8217; I wrote the has_attributes_from gem. Add the following line to your environment.rb file</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">config</span><span class="o">.</span><span class="n">gem</span> <span class="s1">&#39;dovadi-has_attributes_from&#39;</span><span class="p">,</span> <span class="ss">:lib</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="s1">&#39;has_attributes_from&#39;</span><span class="p">,</span> <span class="ss">:version</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="s1">&#39;&amp;gt;=0.1.1&#39;</span><span class="p">,</span> <span class="ss">:source</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="s1">&#39;http://gems.github.com&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Install and unpack this gem to your vendor directory or install as a plugin<br />
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">.</span><span class="n">/script</span><span class="o">/</span><span class="n">plugin</span> <span class="n">install</span> <span class="ss">git</span><span class="p">:</span><span class="sr">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">dovadi</span><span class="o">/</span><span class="n">has_attributes_from</span><span class="o">.</span><span class="n">git</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+
+<p>Now we can do the following:</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Person</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'><span class="k">class</span> <span class="nc">Child</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="no">Person</span>
+</span><span class='line'>  <span class="n">has_attributes_from</span> <span class="ss">:child_detail</span>
+</span><span class='line'>  <span class="n">validates_presence_of</span> <span class="ss">:nickname</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'><span class="k">class</span> <span class="nc">ChildDetail</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>With <a href="http://github.com/dovadi/has_attributes_from/tree/master">has_attributes_from</a> the attributes from ChidDetail are merged with Child. A child object acts as one single object and I can even do validation on nickname directly (or the other attributes from ChildDetail).</p>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">child</span> <span class="o">=</span> <span class="no">Child</span><span class="o">.</span><span class="n">first</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="c1">#&amp;lt;Child id: 2, firstname: &quot;William&quot;, lastname: &quot;Oxener&quot;, type: &quot;Child&quot;, social_security_number: &quot;123456789&quot;, gender: &quot;m&quot;, date_of_birth: &quot;2005-12-02 00:00:00&quot;&amp;gt;</span>
+</span><span class='line'><span class="nb">puts</span> <span class="n">child</span><span class="o">.</span><span class="n">nickname</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="s2">&quot;Bill&quot;</span>
+</span><span class='line'><span class="n">child</span><span class="o">.</span><span class="n">update_attributes</span><span class="p">(</span><span class="ss">:nickname</span><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="kp">nil</span><span class="p">)</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="kp">false</span>
+</span><span class='line'><span class="n">child</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">full_messages</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="o">[</span><span class="s2">&quot;Nickname must be present&quot;</span><span class="o">]</span>
+</span><span class='line'><span class="n">child</span><span class="o">.</span><span class="n">nickname</span><span class="o">=</span><span class="s2">&quot;Daam&quot;</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="s2">&quot;Daam&quot;</span>
+</span><span class='line'><span class="n">child</span><span class="o">.</span><span class="n">save</span>
+</span><span class='line'><span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span><span class="kp">true</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I think this is much nicer, besides it was fun to make and a good exercise to put some Ruby meta programming into practice.</p>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Frank Oxener</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-08-21T00:00:00+02:00" pubdate data-updated="true">Aug 21<span>st</span>, 2009</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://dovadi.com/2009/08/21/gem-released-has_attributes_from/" data-via="dovadi" data-counturl="http://dovadi.com/2009/08/21/gem-released-has_attributes_from/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2009/06/29/short-update-studio-didacto/" title="Previous Post: Short update: Studio Didacto">&laquo; Short update: Studio Didacto</a>
+      
+      
+        <a class="basic-alignment right" href="/2010/03/23/ideal-on-rails/" title="Next Post: Active Merchant iDEAL plugin">Active Merchant iDEAL plugin &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/dovadi">@dovadi</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'dovadi',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  
+    <a href="http://twitter.com/dovadi" class="twitter-follow-button" data-show-count="false">Follow @dovadi</a>
+  
+</section>
+
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/10/13/electrocamp-on-texel/">Electro:Camp on Texel</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2010/05/25/proposal-for-a-formal-commercial-co-operative/">Proposal for a formal (commercial) co-operative</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2010/05/22/cowork-location-on-texel/">CoWork location on Texel</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2010/03/23/ideal-on-rails/">Active Merchant iDEAL plugin</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2009/08/21/gem-released-has_attributes_from/">Gem released: has_attributes_from</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+  <h1>&nbsp;</h1>
+  <p>
+   <img width="255px" src="/images/logo_ad.png">
+  </p>
+</section>
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2018 - Frank Oxener -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a href="http://octopressthemes.com">Octopress Themes</a>.</span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'dovadi';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'https://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'https://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
